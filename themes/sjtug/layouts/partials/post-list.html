@@ -1,9 +1,22 @@
 <ul id="post-list">
+        <li>We are a registered organization now! - September 19, 2016<li/>
+	<li>
+		<img id="newsImg"  src="{{ .Site.BaseURL }}images/act.jpeg"/>
+
+		October 11, 2014: @sorrow17, Functional Programming and Clojure<li/>
+	<li>
+		<img id="newsImg"  src="{{ .Site.BaseURL }}images/act2.jpeg"/>
+
+		Go Intro and Docker Overview ----Sharing Event @ Sep. 27 2014<li/>
+	
     {{ range where .Paginator.Pages "Params.hidden" "ne" "true" }}
     {{ $url := replace .Permalink .Site.BaseURL "" }}
         {{ if ne $url "about/" }}
-            <li>
+
+	<li>
                 <a href='{{ .Permalink }}'><aside class="dates">{{ .Date.Format "Jan 2" }}</aside></a>
+		
+    
                 <a href='{{ .Permalink }}'>{{ .Title }} <h2>{{ .Description | markdownify }}</h2></a>
             </li>
         {{ end }}

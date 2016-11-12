@@ -85,10 +85,11 @@ h2 {
 
 .profile #avatar {
 	display: inline-block;
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	margin-bottom: 20px;
+	width: 150px;
+	height: 150px;
+	background-image: url(/images/avatar.png);
+	background-position: center center; 
+	background-repeat: no-repeat;
 }
 
 .profile h1 {
