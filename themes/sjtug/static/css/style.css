@@ -161,10 +161,8 @@ nav.main-nav a.cta {
 /* Typography */
 /*Accent color*/
 a,
-#title,
 #post-list a:hover,
-#post-list li:hover .dates,
-#title:hover {
+#post-list li:hover .dates {
 	text-decoration: none;
 	color: #5badf0;
 	color: #5694f1;
@@ -192,15 +190,6 @@ li	{ list-style-type:circle; list-style-position:inside; }
 b, strong { font-weight: 500;
   color: #1E2025; }
 em, i { font-style: italic; }
-
-#title {
-	display: inline-block;
-	line-height: 100%;
-	font-weight: 500;
-	font-size: 19px;
-	margin: 0;
-	padding-bottom: 20px;
-}
 
 .description {
 	float: right;
@@ -635,7 +624,6 @@ h2.month {
 	#post-list, #archive-list { margin-top: 0; }
 	#post-meta { margin-top: 60px; }
 
-	#title { font-size: 17px; }
 	#post-list .dates { display: none; }
 
 	#post-list-footer { margin-top: 20px; padding-top: 40px; }
@@ -671,4 +659,73 @@ code {
 	background-color:#EEE; font-size:14px; 
 	padding: 4px; 
 	font-weight: 600;
+}
+
+/* Rocket */
+
+@font-face {
+  font-family: 'Gafata';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Gafata-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Ceviche One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/CevicheOne-Regular.ttf) format('truetype');
+}
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+#logo {
+    width:480px;
+    height:480px;
+    background-image: url(/images/Rocket480.png);
+    background-position: center center; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#logo .backcircle {
+    display:none;
+    background: rgb(243,165,51);
+    width:440px;
+    height:440px;
+    margin:20px;
+    position: absolute;
+    z-index:-99;
+    -webkit-border-radius: 220px;
+    -moz-border-radius: 220px;
+    -ms-border-radius: 220px;
+    -o-border-radius: 220px;
+    border-radius: 220px;
+}
+
+#logo.ani {
+    background-image: none;
+}
+
+#logo.ani .backcircle{
+    display:block;
+}
+
+#title {
+    text-align: center;
+    margin: 20px 0 40px;
+}
+
+#title h1 {
+    font-family: 'Ceviche One', cursive;
+    font-size: 120px;
+    margin:0;
+}
+
+#title small {
+    font-size: 24px;
+    color: #666;
 }

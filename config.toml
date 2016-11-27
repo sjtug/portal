@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "SJTUG-A Joyful Techie User Group"
+title = "SJTUG - A Joyful Techie User Group"
 theme = "sjtug"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -10,8 +10,7 @@ disqusShortname = "spf13"
 
 [params]
 	name = "SJTUG"
-	description = "SJTUG portal"
-	bio = "A JOYFUL TECHIE USER GROUP"
+	description = "SJTU *NIX User Group"
 	# Enter optionally your twitter account
 	twitter = "sjtug"
 	enableRSS = true

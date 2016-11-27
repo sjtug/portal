@@ -17,8 +17,7 @@
 	{{ end }}
 
 	{{ if ne $url "contacts/" }}
-    <a class="cta" href='{{ .Site.BaseURL}}contacts/'>{{ with .Site.Params.contacts }}{{ . }}{{ else }}Contacts{{ end }}</a>
+    <a class="cta" id="join" href='{{ .Site.BaseURL}}contacts/'>{{ with .Site.Params.contacts }}{{ . }}{{ else }}Contacts{{ end }}</a>
 	{{ end }}
-
 
 </nav>
