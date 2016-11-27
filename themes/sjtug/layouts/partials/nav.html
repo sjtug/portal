@@ -5,11 +5,11 @@
 	{{ end }}
 
 	{{ if ne $url "about/" }}
-		<a href='http://sjtug.org/about/'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
+    <a href='{{ .Site.BaseURL }}about/'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
 	{{ end }}
 	
 	{{ if ne $url "news/" }}
-		<a href='http://sjtug.org/news/'>{{ with .Site.Params.news }}{{ . }}{{ else }}News{{ end }}</a>
+    <a href='{{ .Site.BaseURL}}news/'>{{ with .Site.Params.news }}{{ . }}{{ else }}News{{ end }}</a>
 	{{ end }}
 
 	{{ if ne $url "softwares/" }}
@@ -17,7 +17,7 @@
 	{{ end }}
 
 	{{ if ne $url "contacts/" }}
-		<a class="cta" href='http://sjtug.org/contacts/'>{{ with .Site.Params.contacts }}{{ . }}{{ else }}Contacts{{ end }}</a>
+    <a class="cta" href='{{ .Site.BaseURL}}contacts/'>{{ with .Site.Params.contacts }}{{ . }}{{ else }}Contacts{{ end }}</a>
 	{{ end }}
 
 
