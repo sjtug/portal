@@ -10,10 +10,10 @@ disqusShortname = "spf13"
 
 [params]
 	name = "SJTUG"
-	description = "Describe your website"
+	description = "SJTUG portal"
 	bio = "A JOYFUL TECHIE USER GROUP"
 	# Enter optionally your twitter account
-	twitter = "Your Twitter account"
+	twitter = "sjtug"
 	enableRSS = true
 
 	# Add custom assets with their paths relative to the static folder
@@ -35,7 +35,7 @@ disqusShortname = "spf13"
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "I'm an enthusiastic gopher."
+	aboutAuthor = "SJTUG information automata"
 	tweet = ""
 	share = ""
 	# 404 page
@@ -49,7 +49,5 @@ disqusShortname = "spf13"
 
 # Add additional social link entries underneath
 [social]
-    twitter  = "https://www.twitter.com/"
-    facebook = "https://www.facebook.com/"
-    github   = "https://www.github.com/"
-    dribble  = "https://www.dribbble.com/"
+    twitter  = "https://www.twitter.com/sjtug"
+    github   = "https://www.github.com/sjtug"
