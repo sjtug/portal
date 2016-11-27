@@ -9,7 +9,7 @@
 	{{ end }}
 	
 	{{ if ne $url "news/" }}
-    <a href='{{ .Site.BaseURL}}news/'>{{ with .Site.Params.news }}{{ . }}{{ else }}News{{ end }}</a>
+    <a href='{{ .Site.BaseURL}}post/'>{{ with .Site.Params.news }}{{ . }}{{ else }}News{{ end }}</a>
 	{{ end }}
 
 	{{ if ne $url "softwares/" }}
