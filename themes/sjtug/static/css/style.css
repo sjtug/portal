@@ -678,14 +678,14 @@ code {
 }
 
 .container {
-    width: 480px;
+    width: 240px;
     margin: 0 auto;
 }
 
 #logo {
-    width:480px;
-    height:480px;
-    background-image: url(/images/Rocket480.png);
+    width:240px;
+    height:240px;
+    background-image: url(/images/Rocket240.png);
     background-position: center center; 
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -694,16 +694,16 @@ code {
 #logo .backcircle {
     display:none;
     background: rgb(243,165,51);
-    width:440px;
-    height:440px;
-    margin:20px;
+    width:220px;
+    height:220px;
+    margin:10px;
     position: absolute;
     z-index:-99;
-    -webkit-border-radius: 220px;
-    -moz-border-radius: 220px;
-    -ms-border-radius: 220px;
-    -o-border-radius: 220px;
-    border-radius: 220px;
+    -webkit-border-radius: 110px;
+    -moz-border-radius: 110px;
+    -ms-border-radius: 110px;
+    -o-border-radius: 110px;
+    border-radius: 110px;
 }
 
 #logo.ani {
@@ -721,11 +721,11 @@ code {
 
 #title h1 {
     font-family: 'Ceviche One', cursive;
-    font-size: 120px;
+    font-size: 80px;
     margin:0;
 }
 
 #title small {
-    font-size: 24px;
+    font-size: 22px;
     color: #666;
 }

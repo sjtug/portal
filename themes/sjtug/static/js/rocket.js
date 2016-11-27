@@ -27,8 +27,8 @@ init();
 
 function init(){
     //scene = new THREE.Scene();
-    var WIDTH = 480;
-    var HEIGHT = 480;
+    var WIDTH = 240;
+    var HEIGHT = 240;
 
     renderer = new THREE.WebGLRenderer({'antialias':true});
     renderer.setSize(WIDTH, HEIGHT);
