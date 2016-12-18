@@ -5,3 +5,4 @@ title = "sjtug"
 
 +++
 
+This is an example post.
