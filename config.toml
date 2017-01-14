@@ -6,7 +6,7 @@ theme = "sjtug"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
-disqusShortname = "sjtug-portal"
+disqusShortname = "sjtug_portal"
 
 [params]
 	name = "SJTUG"
@@ -42,7 +42,7 @@ disqusShortname = "sjtug-portal"
 	subtitle404 = ""
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "mono-social"
+	iconFont = "font-awesome"
     # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
     socialIconStyle = "circle"
 
