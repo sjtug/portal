@@ -6,7 +6,7 @@ theme = "sjtug"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
-disqusShortname = "spf13"
+disqusShortname = "sjtug-portal"
 
 [params]
 	name = "SJTUG"
@@ -45,6 +45,9 @@ disqusShortname = "spf13"
 	iconFont = "mono-social"
     # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
     socialIconStyle = "circle"
+
+[taxonomies]
+tag = "tags"
 
 # Add additional social link entries underneath
 [social]

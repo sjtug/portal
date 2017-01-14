@@ -729,3 +729,8 @@ code {
     font-size: 22px;
     color: #666;
 }
+
+.list-image-wrapper {
+    max-height: 200px;
+    overflow: hidden;
+}

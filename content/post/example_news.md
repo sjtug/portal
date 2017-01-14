@@ -4,6 +4,7 @@ draft = true
 title = "sjtug news"
 news = true
 image = "act.jpeg"
+tags = ['news']
 
 +++
 
