@@ -3,11 +3,10 @@
     {{ $url := replace .Permalink .Site.BaseURL "" }}
         {{ if and (ne $url "about/") (.Params.news) }}
 
-	<li>
+            <li>
                 <a href='{{ .Permalink }}'><aside class="dates">{{ .Date.Format "Jan 2" }}</aside></a>
-		
-    
                 <a href='{{ .Permalink }}'>{{ .Title }} <h2>{{ .Description | markdownify }}</h2></a>
+                <img src='{{ .Site.BaseURL }}/images/{{ .Params.image }}'>
             </li>
         {{ end }}
     {{ end }}
