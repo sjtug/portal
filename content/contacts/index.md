@@ -25,3 +25,4 @@ SJTUG on:
 
 - Twitter: [@sjtug](http://twitter.com/sjtug)
 - GitHub: [@sjtug](https://github.com/sjtug)
+- WeChat: Add @VicLuo96 to join our WeChat group
