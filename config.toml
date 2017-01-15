@@ -1,12 +1,13 @@
 # Site settings
-baseurl = "https://example.org/"
-languageCode = "en-us"
+baseurl = "http://sjtug.org/"
+languageCode = "zh-cn"
 title = "SJTUG - A Joyful Techie User Group"
 theme = "sjtug"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
 disqusShortname = "sjtug-portal"
+canonifyURLs = true
 
 [params]
 	name = "SJTUG"
