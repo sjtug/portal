@@ -2,7 +2,6 @@
 +++
 date = "2016-11-27T15:12:37+08:00"
 title = "About"
-hidden = true
 +++
 
 

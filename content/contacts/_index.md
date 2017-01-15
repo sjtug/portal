@@ -1,9 +1,7 @@
 
-
 +++
 date = "2016-11-27T15:26:37+08:00"
 title = "Contacts"
-hidden = true
 +++
 
 ## Code of conduct
