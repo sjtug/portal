@@ -104,19 +104,24 @@ function init(){
 
       var joinLink = document.getElementById('join');
       
-      joinLink.onmouseover = function(e){
-        firel = 0.8;
-        firer = 0.1;
-        var w = document.body.clientWidth/2;
-        xs = w - e.pageX;
-        if (xs>80) xs=160;
-        else if (xs<-80) xs=-160;
-        else xs = 0;
-      }
-      
-      joinLink.onmouseout = function(e){
-        firel = 0.4;
-        firer = 0.2;
+      if (joinLink) {
+        joinLink.onmouseover = function(e){
+          firel = 0.8;
+          firer = 0.1;
+          var w = document.body.clientWidth/2;
+          xs = w - e.pageX;
+          if (xs>80) xs=160;
+          else if (xs<-80) xs=-160;
+          else xs = 0;
+        }
+        
+        joinLink.onmouseout = function(e){
+          firel = 0.4;
+          firer = 0.2;
+        }
+      } else { // support pages with no join link
+          firel = 0.4;
+          firer = 0.2;
       }
 
       animate();
