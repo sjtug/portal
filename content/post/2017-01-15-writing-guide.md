@@ -10,7 +10,7 @@ tags = ["guide"]
 ## 安装Hugo, 或直接新建文章
 安装`hugo`然后`hugo new post/YYYY-MM-DD-article-title.md`；或直接新建`content/post/YYYY-MM-DD-article-title.md`，手动指定`date`
 
-## Front matterns
+## Front matters
 头部`+++`的front matters部分，可以指定的部分有：
 
 - `title = "article title"` 必填
