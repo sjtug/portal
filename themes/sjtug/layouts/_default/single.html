@@ -8,6 +8,10 @@
                     <h1>{{ .Title }}</h1>
                     <h2 class="headline">
                     {{ .Date.Format "January 2, 2006" }} 
+                    {{ if .Params.author }}
+                        <br>
+                        <i class="fa fa-user" aria-hidden="true"></i> {{.Params.author}}
+                    {{ end }}
                     {{ if (or .Params.activity_place .Params.activity_time) }}
                     <br>
                     {{ if .Params.activity_place }} <i class="fa fa-map-marker" aria-hidden="true"></i> {{.Params.activity_place }} {{ end }}

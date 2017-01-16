@@ -6,6 +6,7 @@ tags = ["news", "sharing"]
 activity_time = "2016-10-16T18:00:00+08:00"
 activity_place = "Main Library B416"
 image = "memory-model.png"
+author = "hawnzug"
 +++
 
 

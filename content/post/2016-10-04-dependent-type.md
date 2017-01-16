@@ -6,6 +6,7 @@ tags = ["news", "sharing"]
 image = "dependent-type.jpg"
 activity_time = "2016-10-04T18:00:00+08:00"
 activity_place = "Main Library E316"
+author = "hawnzug"
 +++
 
 
