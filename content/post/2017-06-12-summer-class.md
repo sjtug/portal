@@ -2,12 +2,15 @@
 
 +++
 date = "2017-06-12T15:58:00+08:00"
+lastmod = "2017-06-24T21:20:00+08:00"
 title = "SJTUG暑期课堂报名中！"
 tags = ["news", "summer_school"]
 activity_time = "2017-06-29T18:00:00+08:00"
 activity_place = "东上院309"
 author = "htfy96"
 +++
+
+UPDATE: [课程主页](http://sjtug.org/post/2017-06-24-summer-class-portal/)已经开通！
 
 SJTUG本次暑假开设了夏季第二课堂，将面向初学者与感兴趣同学的进行3～4次分享，主要内容见下：
 
