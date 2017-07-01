@@ -11,6 +11,7 @@ author = "htfy96"
 
 > UPDATE(06-25): [人员分流名单](/post/2017-06-25-summer-class-schedule)已经公布，请尽快查看自己的时间
 > UPDATE(06-29)：更新第一周课件及第二周时间地点
+> UPDATE(07-01)：更新第二周主题
 
 
 ## 6月29日/开源与自由软件历史
@@ -22,7 +23,7 @@ author = "htfy96"
 
 课件：[在线查看](http://sjtug.org/sharing/2017-06-29/) [下载](https://github.com/sjtug/sharing/tree/master/2017-06-29)
 
-## 7月7日/待定
+## 7月7日/Git使用
 时间：__7月7日（20周周五）20:30__（有更改）
 
 地点：东中4-302
