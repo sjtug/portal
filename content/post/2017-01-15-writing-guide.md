@@ -10,6 +10,10 @@ author = "htfy96"
 ## 安装Hugo, 或直接新建文章
 安装`hugo`然后`hugo new post/YYYY-MM-DD-article-title.md`；或直接新建`content/post/YYYY-MM-DD-article-title.md`，手动指定`date`
 
+软件源新闻放在`content/post/mirror-news`下面，带上`mirror-news`的tag。
+
+软件源帮助放在`content/post/mirror-help`下面，带上`mirror-help`的tag，title设定成和name相同（注意大小写）。
+
 ## Front matters
 头部`+++`的front matters部分，可以指定的部分有：
 
