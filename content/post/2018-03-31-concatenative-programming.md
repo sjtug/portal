@@ -1,6 +1,6 @@
 +++
 date = "2018-03-31T21:00:00+08:00"
-title = "SJTUG 2018第二次分享："
+title = "SJTUG 2018第二次分享：Concatenative Programming 初探"
 tags = ["news", "sharing"]
 activity_time = "2018-03-31T19:00:00+08:00"
 activity_place="Main Library E216"
