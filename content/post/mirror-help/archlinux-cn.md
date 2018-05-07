@@ -13,5 +13,5 @@ Arch Linux 中文社区仓库 是由 Arch Linux 中文社区驱动的非官方�
 使用方法：在 `/etc/pacman.conf` 文件末尾添加以下两行：
 ```
 [archlinuxcn]
-Server = https://mirrors.sjtug.org/archlinux-cn/$arch
+Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 ```
