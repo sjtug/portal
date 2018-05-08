@@ -11,4 +11,5 @@ author="Evensgn"
 
 合作训练：CoT Cooperative Training @ 卢思迪
 
-届时会通过teamviewer等进行现场直播，slides 会上传到 https://github.com/sjtug/sharing
+届时会通过 teamviewer、bilibili 等进行现场直播，slides 会上传到 https://github.com/sjtug/sharing
+[bilibili 直播间](https://live.bilibili.com/6254516)
