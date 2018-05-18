@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://sjtug.org/"
+baseurl = "https://sjtug.org/"
 languageCode = "zh-cn"
 title = "SJTUG - A Joyful Techie User Group"
 theme = "sjtug"
