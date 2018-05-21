@@ -15,3 +15,8 @@ Arch Linux 中文社区仓库 是由 Arch Linux 中文社区驱动的非官方�
 [archlinuxcn]
 Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 ```
+
+之后，请执行下面的命令安装 archlinuxcn-keyring 包导入 GPG key。
+```
+pacman -Sy archlinuxcn-keyring
+```
