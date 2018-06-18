@@ -8,4 +8,4 @@ raspberrypi是树莓派基金会提供的软件源，包括 ui 相关程序及�
 
 **使用方法**
 
-将`/etc/apt/raspi.list`中的`http://archive.raspberrypi.org/debian/`更换成`https://mirrors.sjtug.sjtu.edu.cn/raspberrypi/debian/`。
+将`/etc/apt/sources.list.d/raspi.list`中的`http://archive.raspberrypi.org/debian/`更换成`https://mirrors.sjtug.sjtu.edu.cn/raspberrypi/debian/`。
