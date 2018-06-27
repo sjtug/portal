@@ -22,7 +22,7 @@ Tutorial | 07.03 19:00  | 东中院 4-102  | [@Evensgn](http://evensgn.com)   | 
 Sharing  | 07.06 19:00  | 东中院 4-102  | @littleRound                     |  计算机工作原理漫谈
 Guest Talk  | 07.10 19:00  | 东中院 4-102    | 周健，依图科技研发总监，上海交大计算机系学士、硕士；亚洲首个世界大学生程序设计竞赛世界冠军 | 从摩尔定律到行星级的智能系统————漫谈 AI 时代的过去、现在和将来
 Sharing  | 07.13 19:00  | 东中院 4-102  | @footoredo                       |  浅谈密码学与密码  
-Sharing  | 07.17 19:00  | 东中院 4-102  | [@茄子(ant_sz)](https://io-meter.com)         |  （TSDB 相关，具体题目待定）
+Sharing  | 07.17 19:00  | 东中院 4-102  | [@茄子(ant_sz)](https://io-meter.com)         |  基于 KV Store 的实时多维数据分析
 Guest Sharing | 07.20 19:00  | 东中院 4-102  | 施闻轩，PingCAP 工程师 | A small bite of Rust
 
 欢迎感兴趣的同学们参加！
