@@ -9,6 +9,7 @@ author = "Evensgn"
 +++
 
 6-30 Update: 请大家注意，由于社总安排变更，上课地点改为东中院 1-103
+
 Update: 课程具体时间地点安排已更新
 
 > [报名链接点这里](https://www.wjx.top/m/24873152.aspx)
