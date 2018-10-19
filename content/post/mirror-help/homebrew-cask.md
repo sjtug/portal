@@ -10,7 +10,7 @@ homebrew-cask.git镜像了[Homebrew Cask的描述文件，主要包括了较大�
 
 使用方法：
 ```sh
-cd "$(brew --repo)"/Library/Taps/caskroom/homebrew-cask
+cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask
 git remote set-url origin https://mirrors.sjtug.sjtu.edu.cn/git/homebrew-cask.git
 ```
 
