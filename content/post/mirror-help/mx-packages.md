@@ -10,15 +10,18 @@ author = "htfy96"
 
 使用方法：
 
+- （推荐）打开MX Repo Manager，选择SJTUG mirror
+
+- （手动）：
 打开` /etc/apt/sources.list`，将
 ```
-deb http://mxrepo.com/mx/repo/ mx17 non-free main
+deb http://mxrepo.com/mx/repo/ stretch non-free main
 deb http://mxrepo.com/mx/testrepo/ mx7 test
 ```
 
 替换成
 
 ```
-deb http://mirrors.sjtug.sjtu.edu.cn/mx-packages/mx/repo main non-free
+deb http://mirrors.sjtug.sjtu.edu.cn/mx-packages/mx/repo stretch main non-free
 deb http://mirrors.sjtug.sjtu.edu.cn/mx-packages/mx/testrepo test
 ```
