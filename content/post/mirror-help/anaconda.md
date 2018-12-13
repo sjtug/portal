@@ -23,3 +23,4 @@ SJTUG源镜像了常用的conda库，以方便科学计算用户使用。
   - `cloud/matsci`: `conda config --add channels https://mirrors.sjtug.sjtu.edu.cn/anaconda/cloud/matsci`
   - `cloud/menpo`: ``conda config --add channels https://mirrors.sjtug.sjtu.edu.cn/anaconda/cloud/menpo`
   - `cloud/soumith`: ``conda config --add channels https://mirrors.sjtug.sjtu.edu.cn/anaconda/cloud/soumith`
+  - `cloud/viscid-hub`: `conda config --add channels https://mirrors.sjtug.sjtu.edu.cn/anaconda/cloud/viscid-hub`
