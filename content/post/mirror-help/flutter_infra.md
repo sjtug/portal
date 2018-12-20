@@ -8,4 +8,4 @@ Flutter_infra镜像是Google storage flutter_infra bucket的反向代理。能�
 
 使用方法：
 
-在安装前，设置环境变量`export FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn/flutter_infra`即可。
+在安装前，设置环境变量`export FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn`即可。
