@@ -4,6 +4,8 @@ tags = ["mirror-help"]
 author = "htfy96"
 +++
 
+[请注意] 我们将在近期[限制 Anaconda 镜像源的访问](https://github.com/sjtug/mirror-requests/issues/47)。
+
 Anaconda 是一种Python语言的免费增值开源发行版，用于进行大规模数据处理, 预测分析, 和科学计算, 致力于简化包的管理和部署。Anaconda使用软件包管理系统Conda进行包管理。
 
 SJTUG源镜像了常用的conda库，以方便科学计算用户使用。
