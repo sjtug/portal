@@ -4,11 +4,9 @@ tags = ["mirror-help"]
 author = "htfy96"
 +++
 
-[请注意] 我们将在近期 [限制 Anaconda 镜像源的访问](https://github.com/sjtug/mirror-requests/issues/47)。
+Anaconda 是一种 Python 语言的免费增值开源发行版，用于进行大规模数据处理, 预测分析, 和科学计算, 致力于简化包的管理和部署。Anaconda 使用软件包管理系统 conda 进行包管理。
 
-Anaconda 是一种Python语言的免费增值开源发行版，用于进行大规模数据处理, 预测分析, 和科学计算, 致力于简化包的管理和部署。Anaconda使用软件包管理系统Conda进行包管理。
-
-SJTUG源镜像了常用的conda库，以方便科学计算用户使用。
+SJTUG 源镜像了常用的 conda 库，以方便科学计算用户使用。
 
 **使用说明**: 使用`conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/{{你所需要的包名}}`来将SJTUG源添加作为这个包的上游。目前镜像的包与安装命令包括：
 
@@ -27,3 +25,5 @@ SJTUG源镜像了常用的conda库，以方便科学计算用户使用。
   - `cloud/soumith`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/soumith`
   - `cloud/viscid-hub`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/viscid-hub`
   - `cloud/atztogo`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/atztogo`
+
+如果您在使用时出现了找不到 `.conda` 的[问题](https://github.com/sjtug/mirror-requests/issues/56)，请参考[这个解决方案](https://github.com/sjtug/sjtug.github.io/issues/12)。
