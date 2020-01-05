@@ -8,4 +8,6 @@ Debian 是完全由自由软件组成的类UNIX操作系统，其包含的多数
 
 使用方法：
 
-打开` /etc/apt/sources.list`，将类似于`http://deb.debian.org/debian/`的地址均替换为`https://mirrors.sjtug.sjtu.edu.cn/debian`即可。
+先安装 ca-certificates apt-transport-https 保证第三方https源可以使用。
+
+再打开` /etc/apt/sources.list`，将类似于`http://deb.debian.org/debian/`的地址均替换为`https://mirrors.sjtug.sjtu.edu.cn/debian`即可。
