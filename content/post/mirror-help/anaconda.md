@@ -19,7 +19,7 @@ SJTUG 源镜像了常用的 conda 库，以方便科学计算用户使用。
   - `pkgs/r`: (empty) `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/r`
 - **第三方源**:
   - `cloud/bioconda`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/bioconda`
-  - `cloud/conda-forge`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/conda-forge`
+  - `cloud/conda-forge`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/conda-forge`
   - `cloud/menpo`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/menpo`
   - `cloud/soumith`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/soumith`
   - `cloud/viscid-hub`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/viscid-hub`
