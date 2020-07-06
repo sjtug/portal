@@ -24,6 +24,7 @@ SJTUG 源镜像了常用的 conda 库，以方便科学计算用户使用。
   - `cloud/soumith`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/soumith`
   - `cloud/viscid-hub`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/viscid-hub`
   - `cloud/atztogo`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/atztogo`
+  - `cloud/pytorch`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/pytorch`
 
 如果您在使用时出现了找不到 `.conda` 的[问题](https://github.com/sjtug/mirror-requests/issues/56)，请参考[这个解决方案](https://github.com/sjtug/sjtug.github.io/issues/12)。
 
