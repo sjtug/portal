@@ -10,7 +10,7 @@ SJTUG 源镜像了常用的 conda 库，以方便科学计算用户使用。
 
 **使用说明**
 
-编辑 ~/.condarc
+编辑 `~/.condarc`
 
 ```
 default_channels:
