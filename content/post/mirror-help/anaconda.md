@@ -8,7 +8,24 @@ Anaconda 是一种 Python 语言的免费增值开源发行版，用于进行大
 
 SJTUG 源镜像了常用的 conda 库，以方便科学计算用户使用。
 
-**使用说明**: 使用`conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/{{你所需要的包名}}`来将SJTUG源添加作为这个包的上游。目前镜像的包与安装命令包括：
+**使用说明**
+
+编辑 `~/.condarc`
+
+```
+default_channels:
+  - https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/r
+  - https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/main
+custom_channels:
+  conda-forge: https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/
+  pytorch: https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/
+channels:
+  - defaults
+```
+
+在 `custom_channels` 中您可以添加下面所列的其他第三方源。
+
+您也可以使用`conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/{{你所需要的包名}}`来将SJTUG源添加作为这个包的上游。目前镜像的包与安装命令包括：
 
 - **官方源**:
   - `pkgs/free`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/free`
