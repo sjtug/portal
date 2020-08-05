@@ -10,7 +10,7 @@ SJTUG 镜像源近期迎来了一大批更新。
 * 改变了 archlinux 镜像的同步方式，实时性更强。
 * 新增 archlinuxarm 源。
 * 在 anaconda 中新增了 PyTorch 源。
-* 新增 julia 源。该镜像源将成为中国大陆境内官方 Pkg Server 的上游。
+* 新增 julia 源。该镜像源将成为中国大陆境内官方 Pkg Server 的上游之一。
 * 新增 mongodb 源。
 * 新增 Qt 源。我们近期在联系 Qt，希望将镜像加入官方镜像列表中。
 
