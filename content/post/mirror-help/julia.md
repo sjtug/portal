@@ -11,7 +11,7 @@ SJTUG 目前提供了 Julia 的官方包注册表 [General](https://github.com/J
 
 ## 使用方式
 
-只需要设置环境变量 `JULIA_PKG_SERVER` 即可切换镜像。若成功切换镜像，则能通过 `versioninfo()` 查询到相关信息，例如：
+只需要设置环境变量 `JULIA_PKG_SERVER=https://mirrors.sjtug.sjtu.edu.cn/julia` 即可切换镜像。若成功切换镜像，则能通过 `versioninfo()` 查询到相关信息，例如：
 
 ```julia
 julia> versioninfo()
@@ -74,6 +74,10 @@ julia> JuliaZH.generate_startup("SJTUG")
 
 
 ## 常见问题
+
+### 加快 Conda.jl 相关操作的速度
+
+您可以在系统中提前安装好 conda，并编辑 `~/.condarc`，加入 SJTUG 镜像源。接着，请根据 [Conda.jl](https://github.com/JuliaPy/Conda.jl) 的文档设置使用已安装的系统环境。这样一来，conda 相关的操作仅依赖镜像源即可完成。
 
 ### 为什么有些包的下载还是很慢？
 
