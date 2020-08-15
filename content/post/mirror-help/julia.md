@@ -7,6 +7,8 @@ date = "2020-08-05T12:00:00+08:00"
 
 SJTUG 目前提供了 Julia 的官方包注册表 [General](https://github.com/JuliaRegistries/General) 镜像来加速 Julia 包的安装。
 
+关于 Julia 的安装，请使用 `julia-releases` 镜像。
+
 注：本镜像的使用需要 Julia `v1.4.0` 或更新的版本。
 
 ## 使用方式
