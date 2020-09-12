@@ -1,3 +1,9 @@
++++
+title = "msys2"
+tags = ["mirror-help"]
+author = "ricky136973"
++++
+
 **收录架构**
 - MINGW: i686, x86_64
 - MSYS: i686, x86_64
