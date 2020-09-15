@@ -17,15 +17,15 @@ author = "ricky136973"
 
 编辑`/etc/pacman.d/mirrorlist.mingw32`，在文件开头添加：
 ```
-Server = http://mirrors.ustc.edu.cn/msys2/mingw/i686
+Server = http://mirrors.sjtug.sjtu.edu.cn/msys2/mingw/i686
 ```
 编辑`/etc/pacman.d/mirrorlist.mingw64`，在文件开头添加：
 ```
-Server = http://mirrors.ustc.edu.cn/msys2/mingw/x86_64
+Server = http://mirrors.sjtug.sjtu.edu.cn/msys2/mingw/x86_64
 ```
 编辑`/etc/pacman.d/mirrorlist.msys`，在文件开头添加：
 ```
-Server = http://mirrors.ustc.edu.cn/msys2/msys/$arch
+Server = http://mirrors.sjtug.sjtu.edu.cn/msys2/msys/$arch
 ```
 然后执行`pacman -Sy`刷新软件包数据即可。
 
