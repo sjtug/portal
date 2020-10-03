@@ -56,8 +56,8 @@ author = "danyang685"
 
   - Raspberry Pi OS 系统镜像内预置的 apt 软件源在国内访问缓慢，可将 apt 软件源更改为 SJTUG 镜像源
 
-    - 将 `/etc/apt/sources.list` 文件中的 raspbian 存储库由 http://raspbian.raspberrypi.org/raspbian/ 更改为 https://mirrors.sjtug.sjtu.edu.cn/raspbian/raspbian/ ，对于64位 Raspberry Pi OS ，将 http://deb.debian.org/debian/ 更改为 https://mirrors.sjtug.sjtu.edu.cn/debian/ ，将 http://deb.debian.org/debian-security/ 更改为 https://mirrors.sjtug.sjtu.edu.cn/debian-security/
-    - 将 `/etc/apt/sources.list.d/raspi.list` 文件中的 raspberrypi 存储库由 http://archive.raspberrypi.org/debian/ 更改为 https://mirrors.sjtug.sjtu.edu.cn/raspberrypi/debian/
+    - 将 `/etc/apt/sources.list` 文件中的 raspbian 存储库由 `http://raspbian.raspberrypi.org/raspbian/` 更改为 `https://mirrors.sjtug.sjtu.edu.cn/raspbian/raspbian/` ，对于64位 Raspberry Pi OS ，将 `http://deb.debian.org/debian/` 更改为 `https://mirrors.sjtug.sjtu.edu.cn/debian/` ，将 `http://deb.debian.org/debian-security/` 更改为 `https://mirrors.sjtug.sjtu.edu.cn/debian-security/`
+    - 将 `/etc/apt/sources.list.d/raspi.list` 文件中的 raspberrypi 存储库由 `http://archive.raspberrypi.org/debian/` 更改为 `https://mirrors.sjtug.sjtu.edu.cn/raspberrypi/debian/`
 
   - 可输入以下命令完成 apt 软件源设置（截至 2020-08-27 版仍然适用）
 
