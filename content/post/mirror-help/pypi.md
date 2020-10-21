@@ -1,5 +1,5 @@
 +++
-title = "pypi"
+title = "pypi/web/simple"
 tags = ["mirror-help"]
 author = "htfy96"
 +++
