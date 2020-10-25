@@ -13,7 +13,7 @@ SJTUG镜像源可以加速软件包的安装。
 
 使用`sudo nano /etc/apt/sources.list`打开镜像源列表文件。将类似于`http://cn.archive.ubuntu.com/ubuntu`或`http://cn.archive.ubuntu.com/ubuntu`的地址改成`https://mirrors.sjtug.sjtu.edu.cn/ubuntu`，之后按`Ctrl-O 回车`保存，按`Ctrl-X`退出。最后执行`sudo apt update`即可。
 
-镜像站一天同步一次 Ubuntu 镜像。为了取得最新的安全更新，我们不推荐您将 `security.ubuntu.com` 换成镜像源。
+镜像站一天同步一次 Ubuntu 镜像。为了取得最新的安全更新，我们不建议您将 `security.ubuntu.com` 换成镜像源。
 
 您也可使用`sudo sed -i 's/http:\/\/cn.archive.ubuntu.com/http:\/\/mirrors.sjtug.sjtu.edu.cn/g' /etc/apt/sources.list`指令直接批量修改。
 
