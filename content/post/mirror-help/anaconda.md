@@ -37,15 +37,13 @@ channels:
   - `pkgs/pro`: (deprecated) `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/pro`
   - `pkgs/r`: (empty) `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/r`
 - **第三方源**:
-  - `cloud/bioconda`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/bioconda`
-  - `cloud/conda-forge`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/conda-forge`
-  - `cloud/menpo`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/menpo`
-  - `cloud/soumith`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/soumith`
-  - `cloud/viscid-hub`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/viscid-hub`
-  - `cloud/atztogo`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/atztogo`
-  - `cloud/pytorch`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/pytorch`
-  - `cloud/pytorch-test`: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/pytorch-test`
-
-如果您在使用时出现了找不到 `.conda` 的[问题](https://github.com/sjtug/mirror-requests/issues/56)，请参考[这个解决方案](https://github.com/sjtug/sjtug.github.io/issues/12)。
+  - `cloud/bioconda`: `conda config --set custom_channels.bioconda https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/`
+  - `cloud/conda-forge`: `conda config --set custom_channels.conda-forge https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/`
+  - `cloud/menpo`: `conda config --set custom_channels.menpo https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/`
+  - `cloud/soumith`: `conda config --set custom_channels.soumith https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/`
+  - `cloud/viscid-hub`: `conda config --set custom_channels.viscid-hub https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/`
+  - `cloud/atztogo`: `conda config --set custom_channels.atztogo https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/`
+  - `cloud/pytorch`: `conda config --set custom_channels.pytorch https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/`
+  - `cloud/pytorch-test`: `conda config --set custom_channels.pytorch-test https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/`
 
 此外，在 Conda 4.7 后，官方的 default 源组默认只包含 main 和 r (windows 会包含 msys2) channel，其他官方源仍支持手动添加。但官方建议不再使用 free channel，详见 [Why We Removed the “Free” Channel in Conda 4.7](https://www.anaconda.com/why-we-removed-the-free-channel-in-conda-4-7/)。
