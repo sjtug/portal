@@ -5,11 +5,12 @@ author = "skyzh"
 date = "2020-08-14T14:55:00+08:00"
 +++
 
-emacs-elpa 包含了 GNU ELPA, MELPA, MELPA Stable, Marmalade, Org, Sunrise Commander ELPA, user42 ELPA 这 7 个镜像。
+emacs-elpa 包含了 GNU ELPA, NonGNU ELPA, MELPA, MELPA Stable, Marmalade, Org, Sunrise Commander ELPA, user42 ELPA 这 8 个镜像。
 
 | ELPA                                                         | 镜像地址                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [GNU ELPA](http://elpa.gnu.org/)                             | https://mirrors.sjtug.sjtu.edu.cn/emacs-elpa/gnu/            |
+| [GNU ELPA](http://elpa.gnu.org/nongnu/)                         | https://mirrors.sjtug.sjtu.edu.cn/emacs-elpa/nongnu/            |
 | [MELPA](https://melpa.org/)                                  | https://mirrors.sjtug.sjtu.edu.cn/emacs-elpa/melpa/          |
 | [MELPA Stable](http://stable.melpa.org/#/)                   | https://mirrors.sjtug.sjtu.edu.cn/emacs-elpa/melpa-stable/   |
 | [Marmalade](https://marmalade-repo.org/)                     | https://mirrors.sjtug.sjtu.edu.cn/emacs-elpa/marmalade/      |
