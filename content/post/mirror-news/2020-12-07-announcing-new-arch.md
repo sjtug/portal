@@ -5,7 +5,7 @@ tags = ["mirror-news"]
 author="skyzh"
 +++
 
-SJTUG 镜像在近期进行了一次更新。我们研发了新的智能缓存工具 [mirror-intel](https://github.com/sjtug/mirror-intel)，
+SJTUG 镜像在近期进行了一次更新。我们开发了智能缓存工具 [mirror-intel](https://github.com/sjtug/mirror-intel)，
 并将部分反向代理软件源移植到了智能缓存系统上。
 
 智能缓存的后端是由上海交通大学网络信息中心提供的对象存储服务。
