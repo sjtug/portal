@@ -19,6 +19,6 @@ SJTUG 镜像在近期进行了一次更新。我们研发了新的智能缓存�
 * crates.io (cargo 包管理器镜像源)。上游为 https://static.crates.io 。所有包都已缓存。
 * homebrew-bottles。上游为 https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles 。所有包都已缓存。
 * pypi-packages。上游为 https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages 。正在同步中。
-* flathub, fedora-ostree, fedora-iot 均使用官方 ostree 上游。所有分支都已缓存。
+* flathub, fedora-ostree, fedora-iot 均使用官方 ostree 上游。所有分支都已缓存。ostree 镜像还在测试阶段，正式版会在近几个月内发布。
 
 欢迎大家的使用～
