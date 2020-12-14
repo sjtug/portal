@@ -1,5 +1,5 @@
 +++
-title = "Linux Lite"
+title = "linuxliteos"
 tags = ["mirror-help"]
 author = "hmsjy2017"
 +++
