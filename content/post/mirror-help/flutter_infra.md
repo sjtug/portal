@@ -45,6 +45,19 @@ export FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn
 
 点击确定，保存生效。如果这两个变量名已经存在，点击编辑可修改变量值。
 
+### 设置 flutter-sdk 镜像
+
+在 `flutter-sdk` git 目录下，执行如下指令即可。
+
+```
+git remote set-url origin https://git.sjtu.edu.cn/sjtug/flutter-sdk.git
+```
+
+### download.flutter.io 镜像
+
+访问 [https://mirrors.sjtug.sjtu.edu.cn/download.flutter.io/](https://mirrors.sjtug.sjtu.edu.cn/download.flutter.io/) 即可。
+
+
 ## 更多资源
 
 感谢 flutter.cn 对 SJTUG 镜像测试的支持。
