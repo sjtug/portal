@@ -31,8 +31,8 @@ groups:
     - raspbian
     - raspberrypi
     - raspberry-pi-os-images
-  python:
-    name: Python
+  pypi:
+    name: Python PyPI
     repos:
     - pypi-packages
     - pypi/web/simple
@@ -63,6 +63,7 @@ groups:
     - fedora-iot
     - fedora-ostree
     - fedora-secondary
+    - - rpmfusion
   flutter:
     name: Dart 和 Flutter
     repos:
@@ -75,3 +76,19 @@ groups:
     repos:
     - git/guix.git
     - guix
+  emacs:
+    name: Emacs
+    repos:
+    - emacs-elpa
+    - git/doom-emacs.git
+    - git/spacemacs.git
+  opam:
+    name: OCaml OPAM
+    repos:
+    - git/opam-repository.git
+    - opam-cache
+  julia:
+    name: Julia
+    repos:
+    - julia
+    - julia-releases
