@@ -63,7 +63,7 @@ groups:
     - fedora-iot
     - fedora-ostree
     - fedora-secondary
-    - - rpmfusion
+    - rpmfusion
   flutter:
     name: Dart 和 Flutter
     repos:
