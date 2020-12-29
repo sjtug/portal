@@ -1,0 +1,50 @@
+groups:
+  rust:
+    name: Rust 语言及工具链
+    repos:
+    - crates.io
+    - git/crates.io-index
+    - static.crates.io
+    - rust-static
+  archlinux:
+    name: Arch Linux
+    repos:
+    - archlinux
+    - archlinux-cn
+    - archlinuxarm
+  debian:
+    name: Debian
+    repos:
+    - debian
+    - debian-cd
+    - debian-security
+  ubuntu:
+    name: Ubuntu
+    repos:
+    - ubuntu
+    - ubuntu-cd
+    - ubuntu-cdimage
+    - ubuntu-ports
+  raspberry-pi:
+    name: Raspberry Pi
+    repos:
+    - raspbian
+    - raspberrypi
+    - raspberry-pi-os-images
+  python:
+    name: Python
+    repos:
+    - pypi-packages
+    - pypi/web/simple
+  homebrew:
+    name: Homebrew
+    repos:
+    - homebrew-bottles
+    - linuxbrew-bottles
+    - git/homebrew-cask-drivers.git
+    - git/homebrew-cask-fonts.git
+    - git/homebrew-cask-versions.git
+    - git/homebrew-cask.git
+    - git/homebrew-core.git
+    - git/homebrew-services.git
+    - git/brew.git
