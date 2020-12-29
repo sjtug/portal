@@ -47,4 +47,31 @@ groups:
     - git/homebrew-cask.git
     - git/homebrew-core.git
     - git/homebrew-services.git
+    - git/linuxbrew-core.git
     - git/brew.git
+  centos:
+    name: CentOS
+    repos:
+    - centos
+    - fedora/epel
+    - rpmfusion
+  fedora:
+    name: Fedora
+    repos:
+    - fedora/epel
+    - fedora/linux
+    - fedora-iot
+    - fedora-ostree
+    - fedora-secondary
+  flutter:
+    name: Dart 和 Flutter
+    repos:
+    - dart-pub
+    - flutter_infra
+    - download.flutter.io
+    - git/flutter-sdk.git
+  guix:
+    name: Guix
+    repos:
+    - git/guix.git
+    - guix
