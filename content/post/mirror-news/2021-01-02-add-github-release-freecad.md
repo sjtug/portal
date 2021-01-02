@@ -1,6 +1,6 @@
 +++
 date = "2021-01-02T09:55:00+08:00"
-title = "新增 FreeCAD 镜像与 GitHub Release 智能缓存“
+title = "新增 FreeCAD 镜像与 GitHub Release 智能缓存"
 tags = ["mirror-news"]
 author="skyzh"
 +++
