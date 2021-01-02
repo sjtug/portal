@@ -25,6 +25,12 @@ Git 镜像的地址为 [https://git.sjtu.edu.cn/sjtug/guix.git](https://git.sjtu
 镜像实现方式为智能缓存，在镜像站用户首次访问某个 nar 或 narinfo 时，它会被永久缓存在镜像上；
 之后的访问将直接从镜像服务器返回数据。
 
+* guix命令支持使用 `--substitute-urls` 参数为单个命令的执行临时覆盖substitute服务器，例如：
+
+```shell
+guix package -i <package> --substitute-urls="https://mirrors.sjtug.sjtu.edu.cn/guix"
+```
+
 * 如果您使用 Guix 管理整个操作系统，请修改操作系统配置文件 ，替换
   `substitute-urls` 参数。例如：
 
