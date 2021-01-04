@@ -43,7 +43,7 @@ SJTUG 镜像是 DragonFly BSD 在中国内地的首个镜像站点，
 ```conf
 # China, Shanghai
 SJTUG: {
-    url:        https://mirrors.sjtug.sjtu.edu.cn/dragonflybsd/dports/${ABI}/LATEST,
+    url:        https://mirror.sjtu.edu.cn/dragonflybsd/dports/${ABI}/LATEST,
     priority:   10,
     enabled:    yes
 }
