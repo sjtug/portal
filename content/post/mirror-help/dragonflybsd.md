@@ -32,8 +32,8 @@ SJTUG 镜像是 DragonFly BSD 在中国内地的首个镜像站点，
 
 我们的镜像服务目前提供了如下内容：
 
-* [安装镜像 (ISO/IMG)](/dragonflybsd/iso-images/)
-* [预编译软件包](/dragonflybsd/dports/)
+* [安装镜像 (ISO/IMG)](https://mirror.sjtu.edu.cn/dragonflybsd/iso-images/)
+* [预编译软件包](https://mirror.sjtu.edu.cn/dragonflybsd/dports/)
   (收录了 3 个版本：当前开发版本、当前发布版本、上一发布版本)
 
 ## 使用方法
