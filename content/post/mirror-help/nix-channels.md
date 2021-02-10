@@ -1,5 +1,5 @@
 +++
-title = "nix-channels"
+title = "nix-channels/store"
 tags = ["mirror-help"]
 author = "c4droid"
 +++
