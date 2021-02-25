@@ -11,12 +11,12 @@ author = "pengmeiyu"
 
 ## Git 镜像
 
-Git 镜像的地址为 [https://git.sjtu.edu.cn/sjtug/guix.git](https://git.sjtu.edu.cn/sjtug/guix.git)。修改 `~/.config/guix/channels.scm` 文件即可在 `guix pull` 时使用。
+Git 镜像的地址为 https://mirror.sjtu.edu.cn/git/guix.git 。修改 `~/.config/guix/channels.scm` 文件即可在 `guix pull` 时使用。
 
 ```
 (list (channel
        (inherit (car %default-channels))
-       (url "https://git.sjtu.edu.cn/sjtug/guix.git")))
+       (url "https://mirror.sjtu.edu.cn/git/guix.git")))
 ```
 
 ## Substitute 镜像
