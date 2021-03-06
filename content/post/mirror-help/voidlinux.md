@@ -11,7 +11,7 @@ Void linux 是基于 Linux 内核独立开发的通用操作系统。其特色�
 ```sh
 mkdir -p /etc/xbps.d
 cp /usr/share/xbps.d/*-repository-*.conf /etc/xbps.d/
-sed -i 's|https://alpha.de.repo.voidlinux.org|https://mirror.sjtu.edu.cn/voidlinux/|g' /etc/xbps.d/*-repository-*.conf
+sed -i 's|https://alpha.de.repo.voidlinux.org|https://mirror.sjtu.edu.cn/voidlinux|g' /etc/xbps.d/*-repository-*.conf
 ```
 
 之后可用 `xbps-query -L` 检查是否正确替换。
