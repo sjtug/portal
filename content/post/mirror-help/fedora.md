@@ -10,7 +10,7 @@ Fedora 项目在建设开源软件社区的同时构建了一个被称为"Fedora
 使用方法：运行下面的指令一键替换并备份。
 
 ```bash
-sed -e 's/metalink/#metalink/g' -e 's|#baseurl=http://download.example/pub/|baseurl=http://mirror.sjtu.edu.cn/|g' -i.bak /etc/yum.repos.d/<需要替换的文件>
+sed -e 's/metalink/#metalink/g' -e 's|#baseurl=http://download.example/pub/|baseurl=https://mirror.sjtu.edu.cn/|g' -i.bak /etc/yum.repos.d/<需要替换的文件>
 ```
 
 最后运行 `dnf makecache` 生成缓存
