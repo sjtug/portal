@@ -15,12 +15,10 @@ To join us, you promise to follow the Code of Conduct above.
 要加入我们，你承诺遵守上述 Code of Conduct 
 
 ## Join us
-To join us, send an arbitrary email to [sjtug+subscribe@googlegroups.com](mailto:sjtug+subscribe@googlegroups.com).
 
-要加入我们，发送任意邮件到 [sjtug+subscribe@googlegroups.com](mailto:sjtug+subscribe@googlegroups.com).
+SJTUG 的成员分布在各个讨论组中。欢迎加入我们：[SJTUG 2021 年春季招新](https://sjtug.org/post/2021-03-09-welcome/)。
 
-SJTUG on:
+也欢迎关注我们的公共社交账号：
 
 - Twitter: [@sjtug](http://twitter.com/sjtug)
 - GitHub: [@sjtug](https://github.com/sjtug)
-- WeChat: Add @VicLuo96 to join our WeChat group
