@@ -1,7 +1,7 @@
 +++
 title = "rocky"
 tags = ["mirror-help"]
-author = "skyzh"
+author = "berlin2123"
 +++
 
 使用方法：运行下面的指令一键替换并备份。
