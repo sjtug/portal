@@ -12,7 +12,7 @@ Raspbian Addons 是 Raspbian 非官方软件源，含有许多来自 GitHub 的�
 支持架构：armhf、arm64
 
 ## 使用方法
-```
+```bash
 wget -qO- https://mirror.sjtu.edu.cn/raspbian-addons/KEY.gpg | sudo apt-key add -
 echo "deb https://mirror.sjtu.edu.cn/raspbian-addons/debian/ buster main" | sudo tee /etc/apt/sources.list.d/raspbian-addons.list
 sudo apt update
