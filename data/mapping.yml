@@ -1,0 +1,94 @@
+groups:
+  rust:
+    name: Rust 语言及工具链
+    repos:
+    - crates.io
+    - git/crates.io-index
+    - static.crates.io
+    - rust-static
+  archlinux:
+    name: Arch Linux
+    repos:
+    - archlinux
+    - archlinux-cn
+    - archlinuxarm
+  debian:
+    name: Debian
+    repos:
+    - debian
+    - debian-cd
+    - debian-security
+  ubuntu:
+    name: Ubuntu
+    repos:
+    - ubuntu
+    - ubuntu-cd
+    - ubuntu-cdimage
+    - ubuntu-ports
+  raspberry-pi:
+    name: Raspberry Pi
+    repos:
+    - raspbian
+    - raspberrypi
+    - raspberry-pi-os-images
+  pypi:
+    name: Python PyPI
+    repos:
+    - pypi-packages
+    - pypi/web/simple
+  homebrew:
+    name: Homebrew
+    repos:
+    - homebrew-bottles
+    - linuxbrew-bottles
+    - git/homebrew-cask-drivers.git
+    - git/homebrew-cask-fonts.git
+    - git/homebrew-cask-versions.git
+    - git/homebrew-cask.git
+    - git/homebrew-core.git
+    - git/homebrew-services.git
+    - git/linuxbrew-core.git
+    - git/brew.git
+  centos:
+    name: CentOS
+    repos:
+    - centos
+    - fedora/epel
+    - rpmfusion
+  fedora:
+    name: Fedora
+    repos:
+    - fedora/epel
+    - fedora/linux
+    - fedora-iot
+    - fedora-ostree
+    - fedora-secondary
+    - rpmfusion
+  flutter:
+    name: Dart 和 Flutter
+    repos:
+    - dart-pub
+    - flutter_infra
+    - download.flutter.io
+    - git/flutter-sdk.git
+  guix:
+    name: Guix
+    repos:
+    - git/guix.git
+    - guix
+  emacs:
+    name: Emacs
+    repos:
+    - emacs-elpa
+    - git/doom-emacs.git
+    - git/spacemacs.git
+  opam:
+    name: OCaml OPAM
+    repos:
+    - git/opam-repository.git
+    - opam-cache
+  julia:
+    name: Julia
+    repos:
+    - julia
+    - julia-releases

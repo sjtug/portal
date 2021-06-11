@@ -14,7 +14,9 @@ branches:
 install:
   - rm -rf public || exit 0
   - wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.37.1/hugo_0.37.1_Linux-64bit.tar.gz && tar xzf hugo.tar.gz
+  - wget https://github.com/mikefarah/yq/releases/download/v4.2.0/yq_linux_amd64 -O /usr/bin/yq && chmod +x /usr/bin/yq
 script:
+  - yq eval -j data/mapping.yml >> content/post/mirror-help/mapping.html
   - ./hugo -v
 after_success:
   - sudo apt-get update && sudo apt-get install -yy python-pip python-dev build-essential && sudo pip install pyopenssl ndg-httpsclient pyasn1 coscmd
