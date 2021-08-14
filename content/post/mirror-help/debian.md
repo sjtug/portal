@@ -14,6 +14,6 @@ sudo sed -i "s|http://deb.debian.org/debian|https://mirrors.sjtug.sjtu.edu.cn/de
 ```
 - 手动替换
 
-先安装 ca-certificates apt-transport-https 保证第三方https源可以使用。
+先安装 ca-certificates apt-transport-https 保证第三方https源可以使用。（执行 `sudo apt install -y ca-certificates apt-transport-https`）
 
 再打开` /etc/apt/sources.list`，将类似于`http://deb.debian.org/debian/`的地址均替换为`https://mirrors.sjtug.sjtu.edu.cn/debian/`即可。
