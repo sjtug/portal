@@ -13,7 +13,7 @@ Ghcup 是一种用于安装 Haskell 的工具，它使得用户可以轻易地�
 
 ```
 url-source:
-    OwnSource: "https://mirror.sjtu.edu.cn/ghcup/yaml/ghcup/data/ghcup-0.0.5.yaml"
+    OwnSource: "https://mirror.sjtu.edu.cn/ghcup/yaml/ghcup/data/ghcup-0.0.6.yaml"
 ```
 
 如果您尚未安装 ghcup，请在完成以上步骤后，于终端中执行以下指令（请不要以 root 用户执行），随后跟随屏幕上的指引完成安装。
@@ -35,8 +35,8 @@ curl --proto '=https' --tlsv1.2 -LsSf https://mirror.sjtu.edu.cn/ghcup/script/in
 1. ghcup 出现形如 `[ Error ] JSON decoding failed with: AesonException` 的错误
 
 这可能是由于本机 ghcup 版本与配置文件版本不匹配造成。
-ghcup 于 0.1.15.1 版本前使用 0.0.4 版本的配置文件，此版本及之后的版本使用 0.0.5 版本的配置文件。
-请尝试将 `config.yaml` 中的 `ghcup-0.0.5.yaml` 改为 `ghcup-0.0.4.yaml` （抑或反之）后重试。
+ghcup 于 0.1.15.1 版本前使用 0.0.4 版本的配置文件，此版本及之后的版本使用 0.0.5+ 版本的配置文件。
+请尝试将 `config.yaml` 中的 `ghcup-0.0.6.yaml` 改为 `ghcup-0.0.4.yaml` （抑或反之）后重试。
 
 请注意，ghcup 上游倾向于仅更新最新版本配置文件中的内容，当版本发生变化后请及时更新配置文件版本。
 
