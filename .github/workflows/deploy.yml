@@ -1,0 +1,62 @@
+
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'why this workflow is triggered'     
+        required: true
+        default: 'manually deploy site'
+
+jobs:
+  deploy_gh_pages:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    environment: "GitHub Action Deploy"
+    steps:
+      - name: Install Packages
+        run: |
+          pip install pyopenssl ndg-httpsclient pyasn1 coscmd
+      - uses: actions/checkout@v2
+        name: Checkout Code
+      - name: Build Site
+        run: |
+          wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0.83.1_Linux-64bit.tar.gz && tar xzf hugo.tar.gz
+          ./hugo -v
+          echo 'sjtug.org' > public/CNAME
+      - name: Deploy to GitHub Pages (sjtug/sjtug.github.io)
+        if: ${{ github.ref == 'refs/heads/master' }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./public
+          external_repository: sjtug/sjtug.github.io
+          publish_branch: master
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+  deploy_tcloud:
+    name: Deploy to Tencent Cloud
+    runs-on: ubuntu-latest
+    environment: "Tencent Cloud API"
+    steps:
+      - name: Install Packages
+        run: |
+          pip install pyopenssl ndg-httpsclient pyasn1 coscmd
+      - uses: actions/checkout@v2
+        name: Checkout Code
+      - name: Build Site
+        run: |
+          wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0.83.1_Linux-64bit.tar.gz && tar xzf hugo.tar.gz
+          ./hugo -v
+      - name: Deploy to TCloud
+        if: ${{ github.ref == 'refs/heads/master' }}
+        run: |
+          coscmd config -a "$TCLOUD_API_ID" -s "$TCLOUD_API_KEY" -b sjtug-portal-1251836446 -r ap-chengdu -m 32
+          cd public && coscmd upload -rs . /
+        env:
+          TCLOUD_API_ID: ${{ secrets.TCLOUD_API_ID }}
+          TCLOUD_API_KEY: ${{ secrets.TCLOUD_API_KEY }}
