@@ -41,7 +41,7 @@ jobs:
   deploy_tcloud:
     name: Deploy to Tencent Cloud
     runs-on: ubuntu-latest
-    # environment: "Tencent Cloud API"
+    environment: "Tencent Cloud API"
     steps:
       - name: Install Packages
         run: |
