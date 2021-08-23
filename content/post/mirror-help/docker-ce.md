@@ -77,11 +77,11 @@ sudo apt-get install docker-ce
 以下内容根据[TUNA文档](https://mirrors.tuna.tsinghua.edu.cn/help/docker-ce/)修改而来。
 
 如果你之前安装过 docker，请先删掉
-```
+```bash
 sudo yum remove docker docker-common docker-selinux docker-engine
 ```
 安装一些依赖
-```
+```bash
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 ```
 根据你的发行版下载repo文件:  
