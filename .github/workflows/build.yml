@@ -1,0 +1,21 @@
+
+name: Deploy
+
+on:
+  pull_request:
+    branches:
+      - master
+jobs:
+  build:
+    name: Test Site Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Packages
+        run: |
+          pip install pyopenssl ndg-httpsclient pyasn1 coscmd
+      - uses: actions/checkout@v2
+        name: Checkout Code
+      - name: Build Site
+        run: |
+          wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0.83.1_Linux-64bit.tar.gz && tar xzf hugo.tar.gz
+          ./hugo -v
