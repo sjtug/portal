@@ -54,3 +54,6 @@ tag = "tags"
 [social]
     twitter  = "https://www.twitter.com/sjtug"
     github   = "https://www.github.com/sjtug"
+    
+[markup.goldmark.renderer]
+    unsafe = true
