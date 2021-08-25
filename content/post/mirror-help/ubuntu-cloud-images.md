@@ -1,0 +1,15 @@
++++
+title = "ubuntu-cloud-images"
+tags = ["mirror-help"]
+author = "LengmoAngel"
++++
+
+OpenStack, LXD 等公有云使用的 Ubuntu 镜像
+
+官方的云 Ubuntu 镜像，由 Canonical 定制，提供 Ubuntu 认证镜像，可 Openstack、LXD 等的公共云上运行。
+
+官方对 KVM,Hyper-v,XEN 等虚拟结构的官方定制镜像
+
+**使用方法**
+
+可以使用 https://mirror.sjtu.edu.cn/ubuntu-cloud-images/locator/ 查找公有云使用的镜像。
