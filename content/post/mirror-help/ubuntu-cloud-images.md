@@ -10,4 +10,4 @@ author = "LengmoAngel"
 
 **使用方法**
 
-可以使用 https://mirror.sjtu.edu.cn/ubuntu-cloud-images/locator/ 查找公有云使用的镜像。
+可以使用 [https://mirror.sjtu.edu.cn/ubuntu-cloud-images/locator/](https://mirror.sjtu.edu.cn/ubuntu-cloud-images/locator) 查找公有云使用的镜像。
