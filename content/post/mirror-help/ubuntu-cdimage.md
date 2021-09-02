@@ -12,5 +12,5 @@ Ubuntu 衍生版现在包括 Kubuntu(KDE) 、 Xubuntu(Xfce) 、 Ubuntu Budgie �
 
 你可以查看 [https://wiki.ubuntu.com/UbuntuFlavors](https://wiki.ubuntu.com/UbuntuFlavors) 现在所支持的 Ubuntu 衍生版本和已经不受到支持的 Ubuntu 衍生版本。
 
-如果你正在寻找原版的桌面版本,你可以在 [https://mirror.sjtu.edu.cn/ubuntu-cd/](https://mirror.sjtu.edu.cn/ubuntu-cd/) 获取,
+如果你正在寻找原版的桌面版本,你可以在 [https://mirror.sjtu.edu.cn/ubuntu-cd/](https://mirror.sjtu.edu.cn/ubuntu-cd/) 获取，
 也可以在这查看使用帮助 [https://mirrors.sjtug.sjtu.edu.cn/docs/ubuntu-cd](https://mirrors.sjtug.sjtu.edu.cn/docs/ubuntu-cd)
