@@ -8,4 +8,4 @@ Debian 是完全由自由软件组成的类 UNIX 操作系统，其包含的多�
 
 本镜像仅提供 Debian 最新稳定版本.
 
-一般来说只需在 ISO CD 目录 [https://mirror.sjtu.edu.cn/debian-cd/current/amd64/iso-cd/](https://mirror.sjtu.edu.cn/debian-cd/current/amd64/iso-cd/) 寻找无后缀版本即可.当你使用不支持 UEFI 启动的系统时候,请安装 mac 后缀版本,当你寻找教育版时候可以寻找 edu 后缀版本.
+一般来说只需在 `iso-cd` 目录 [https://mirror.sjtu.edu.cn/debian-cd/current/amd64/iso-cd/](https://mirror.sjtu.edu.cn/debian-cd/current/amd64/iso-cd/) 寻找无后缀版本即可。当你使用不支持 UEFI 启动的系统时候，请安装 `mac` 后缀版本。当你寻找教育版时候可以寻找 `edu` 后缀版本。
