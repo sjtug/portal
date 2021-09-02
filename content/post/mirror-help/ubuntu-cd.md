@@ -10,4 +10,4 @@ Ubuntu 是一个基于 Debian 的 Linux 发行版。 Ubuntu 的目标在于为�
 
 您可以通过 [https://wiki.ubuntu.com/Releases](https://wiki.ubuntu.com/Releases) 查看现在还在生命周期内的镜像。
 
-更多衍生发行版和其他架构非桌面版本请至 [https://mirror.sjtu.edu.cn/ubuntu-cdimage/](https://mirror.sjtu.edu.cn/ubuntu-cdimage/) 查看,或者在 [https://mirrors.sjtug.sjtu.edu.cn/docs/ubuntu-cdimage](https://mirrors.sjtug.sjtu.edu.cn/docs/ubuntu-cdimage) 获取该镜像使用帮助
+更多衍生发行版和其他架构非桌面版本请至 [https://mirror.sjtu.edu.cn/ubuntu-cdimage/](https://mirror.sjtu.edu.cn/ubuntu-cdimage/) 查看，或者在 [https://mirror.sjtu.edu.cn/docs/ubuntu-cdimage](https://mirror.sjtu.edu.cn/docs/ubuntu-cdimage) 获取该镜像使用帮助。
