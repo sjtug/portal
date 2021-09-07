@@ -13,3 +13,4 @@ deb https://mirror.sjtu.edu.cn/debian-ports unstable main
 deb https://mirror.sjtu.edu.cn/debian-ports unreleased main
 deb https://mirror.sjtu.edu.cn/debian-ports experimental main
 ```
+然后，使用`sudo apt update`更新软件包索引。
