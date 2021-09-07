@@ -9,7 +9,7 @@ author = "hmsjy2017"
 
 ```
 deb https://mirror.sjtu.edu.cn/debian-ports sid main
-#deb-src http://ftp.ports.debian.org/debian-ports/ sid main
+#deb-src https://mirror.sjtu.edu.cn/debian-ports sid main
 deb https://mirror.sjtu.edu.cn/debian-ports unstable main
 deb https://mirror.sjtu.edu.cn/debian-ports unreleased main
 deb https://mirror.sjtu.edu.cn/debian-ports experimental main
