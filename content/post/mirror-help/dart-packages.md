@@ -8,4 +8,4 @@ dart-pub 镜像全量同步了 Dart 语言官方仓库 https://pub.dartlang.org 
 
 使用方法：
 
-设置环境变量 `export PUB_HOSTED_URL=https://mirrors.sjtug.sjtu.edu.cn/dart-pub` 即可。
+设置环境变量 `export PUB_HOSTED_URL=https://mirror.sjtu.edu.cn/dart-pub` 即可。

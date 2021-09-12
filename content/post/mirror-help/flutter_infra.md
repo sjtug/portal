@@ -26,8 +26,8 @@ Flutter 由 Google 主导，全球的开发者共同协作开发。中国的开�
 执行如下代码：
 
 ```
-export PUB_HOSTED_URL=https://mirrors.sjtug.sjtu.edu.cn/dart-pub
-export FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn
+export PUB_HOSTED_URL=https://mirror.sjtu.edu.cn/dart-pub
+export FLUTTER_STORAGE_BASE_URL=https://mirror.sjtu.edu.cn
 ```
 
 ### Windows 系统设定 Flutter 镜像
@@ -39,9 +39,9 @@ export FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn
 单击“新建”添加新变量：
 
 - 变量名: `PUB_HOSTED_URL`
-- 值: `https://mirrors.sjtug.sjtu.edu.cn/dart-pub`
+- 值: `https://mirror.sjtu.edu.cn/dart-pub`
 - 变量名: `FLUTTER_STORAGE_BASE_URL`
-- 值: `https://mirrors.sjtug.sjtu.edu.cn`
+- 值: `https://mirror.sjtu.edu.cn`
 
 点击确定，保存生效。如果这两个变量名已经存在，点击编辑可修改变量值。
 
@@ -55,7 +55,7 @@ git remote set-url origin https://git.sjtu.edu.cn/sjtug/flutter-sdk.git
 
 ### download.flutter.io 镜像
 
-访问 [https://mirrors.sjtug.sjtu.edu.cn/download.flutter.io/](https://mirrors.sjtug.sjtu.edu.cn/download.flutter.io/) 即可。
+访问 [https://mirror.sjtu.edu.cn/download.flutter.io/](https://mirror.sjtu.edu.cn/download.flutter.io/) 即可。
 
 
 ## 更多资源

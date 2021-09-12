@@ -13,19 +13,19 @@ PyPI 是 Python 官方的包仓库，可以通过 `pip`, `easy_install` 等方�
 执行指令
 
 ```bash
-pip config set global.index-url https://mirrors.sjtug.sjtu.edu.cn/pypi/web/simple
+pip config set global.index-url https://mirror.sjtu.edu.cn/pypi/web/simple
 ```
 
 或者创建或编辑 `~/.config/pip/pip.conf` 文件，加入或修改 `index-url` 相关段落为：
 
 ```conf
 [global]
-index-url = https://mirrors.sjtug.sjtu.edu.cn/pypi/web/simple
+index-url = https://mirror.sjtu.edu.cn/pypi/web/simple
 format = columns
 ```
 
 临时使用：
 
 ```bash
-pip install -i https://mirrors.sjtug.sjtu.edu.cn/pypi/web/simple numpy
+pip install -i https://mirror.sjtu.edu.cn/pypi/web/simple numpy
 ```
