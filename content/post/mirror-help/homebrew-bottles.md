@@ -12,7 +12,7 @@ homebrew-bottles.git镜像了[预编译的 Homebrew 软件包](https://homebrew.
 
 执行以下语句或加入到`~/.bashrc`中。
 ```sh
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.sjtug.sjtu.edu.cn/homebrew-bottles/bottles
+export HOMEBREW_BOTTLE_DOMAIN=https://mirror.sjtu.edu.cn/homebrew-bottles/bottles
 ```
 
 SJTUG 镜像现已支持 ghcr.io 的 bottles 同步。
