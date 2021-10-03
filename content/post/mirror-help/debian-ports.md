@@ -1,5 +1,5 @@
 +++
-title = "debian"
+title = "debian-ports"
 tags = ["mirror-help"]
 author = "hmsjy2017"
 +++
