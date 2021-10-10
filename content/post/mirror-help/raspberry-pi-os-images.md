@@ -13,9 +13,9 @@ author = "danyang685"
 | Raspberry Pi OS 版本            | 存储目录                                                     | 预计大小 |
 | ------------------------------- | ------------------------------------------------------------ | -------- |
 | 精简版 Raspberry Pi OS 系统     | [raspios_lite_armhf](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_lite_armhf/images/) | 0.4 GiB  |
-| 常规版 Raspberry Pi OS 系统     | [raspios_armhf](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_armhf/images/) | 1.1 GiB  |
-| 完整版 Raspberry Pi OS 系统     | [raspios_full_armhf](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_full_armhf/images/) | 2.5 GiB  |
-| 精简版 Raspberry Pi OS 64位系统 | [raspios_lite_arm64](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_lite_arm64/images/) | 0.5 GiB  |
+| 常规版 Raspberry Pi OS 系统     | [raspios_armhf](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_armhf/images/) | 1.2 GiB  |
+| 完整版 Raspberry Pi OS 系统     | [raspios_full_armhf](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_full_armhf/images/) | 2.8 GiB  |
+| 精简版 Raspberry Pi OS 64位系统 | [raspios_lite_arm64](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_lite_arm64/images/) | 0.4 GiB  |
 | 常规版 Raspberry Pi OS 64位系统 | [raspios_arm64](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_arm64/images/) | 1.0 GiB  |
 
 **备注**
@@ -46,7 +46,7 @@ author = "danyang685"
 
 - 命令行下的设置
 
-  - 在终端输入 `sudo raspi-config` 命令进行基本设置。可将时区设置为 `Asia/Shanghai` ，默认区域更改为 `zh_CN.UTF-8` ，可启用 VNC 以进行远程桌面连接
+  - 在终端输入 `sudo raspi-config` 命令进行基本设置。可将时区设置为 `Asia/Shanghai` ，将默认区域更改为 `en_US.UTF-8` （英文）或 `zh_CN.UTF-8` （中文）；连接USB键盘时，可将键盘布局修改为美式键盘（Generic 104-key PC -> Other -> English (US) -> English (US)）；同时还可启用 VNC 以进行远程桌面连接。
 
 - 图形界面下的设置
 
@@ -59,7 +59,7 @@ author = "danyang685"
     - 将 `/etc/apt/sources.list` 文件中的 raspbian 存储库由 `http://raspbian.raspberrypi.org/raspbian/` 更改为 `https://mirrors.sjtug.sjtu.edu.cn/raspbian/raspbian/` ，对于64位 Raspberry Pi OS ，将 `http://deb.debian.org/debian/` 更改为 `https://mirrors.sjtug.sjtu.edu.cn/debian/` ，将 `http://deb.debian.org/debian-security/` 更改为 `https://mirrors.sjtug.sjtu.edu.cn/debian-security/`
     - 将 `/etc/apt/sources.list.d/raspi.list` 文件中的 raspberrypi 存储库由 `http://archive.raspberrypi.org/debian/` 更改为 `https://mirrors.sjtug.sjtu.edu.cn/raspberrypi/debian/`
 
-  - 可输入以下命令完成 apt 软件源设置（截至 2020-08-27 版仍然适用）
+  - 可输入以下命令完成 apt 软件源设置（截至 2021-05-28 版仍然适用）
 
     ```shell
     sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
@@ -69,10 +69,19 @@ author = "danyang685"
     sudo sed -i "s|http://archive.raspberrypi.org/debian/|https://mirrors.sjtug.sjtu.edu.cn/raspberrypi/debian/|g" /etc/apt/sources.list.d/raspi.list
     sudo apt update
     ```
+    
+
+- 添加 Raspbian 非官方软件源 Raspbian Addons（可选）
+
+  ```shell
+  wget -qO- https://mirror.sjtu.edu.cn/raspbian-addons/KEY.gpg | sudo apt-key add -
+  echo "deb https://mirror.sjtu.edu.cn/raspbian-addons/debian/ /" | sudo tee /etc/apt/sources.list.d/raspbian-addons.list
+  sudo apt update
+  ```
 
 - 软件包更新
 
   ```shell
-  sudo apt update && sudo apt upgrade -y
+  sudo apt update && sudo apt upgrade -y && sudo apt autoremove
   ```
-  
+
