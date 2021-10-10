@@ -10,13 +10,13 @@ author = "danyang685"
 
 根据需要的版本进入以下包含 Raspberry Pi OS 系统镜像的目录，选择`.zip`文件下载即可。推荐使用 [balenaEtcher](https://www.balena.io/etcher/) 将镜像写入 SD 卡
 
-| Raspberry Pi OS 版本            | 存储目录                                                     | 预计大小 |
-| ------------------------------- | ------------------------------------------------------------ | -------- |
-| 精简版 Raspberry Pi OS 系统     | [raspios_lite_armhf](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_lite_armhf/images/) | 0.4 GiB  |
-| 常规版 Raspberry Pi OS 系统     | [raspios_armhf](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_armhf/images/) | 1.2 GiB  |
-| 完整版 Raspberry Pi OS 系统     | [raspios_full_armhf](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_full_armhf/images/) | 2.8 GiB  |
-| 精简版 Raspberry Pi OS 64位系统 | [raspios_lite_arm64](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_lite_arm64/images/) | 0.4 GiB  |
-| 常规版 Raspberry Pi OS 64位系统 | [raspios_arm64](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_arm64/images/) | 1.0 GiB  |
+| Raspberry Pi OS 版本            | 存储目录                                                     |
+| ------------------------------- | ------------------------------------------------------------ |
+| 精简版 Raspberry Pi OS 系统     | [raspios_lite_armhf](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_lite_armhf/images/) |
+| 常规版 Raspberry Pi OS 系统     | [raspios_armhf](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_armhf/images/) |
+| 完整版 Raspberry Pi OS 系统     | [raspios_full_armhf](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_full_armhf/images/) |
+| 精简版 Raspberry Pi OS 64位系统 | [raspios_lite_arm64](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_lite_arm64/images/) |
+| 常规版 Raspberry Pi OS 64位系统 | [raspios_arm64](https://mirrors.sjtug.sjtu.edu.cn/raspberry-pi-os-images/raspios_arm64/images/) |
 
 **备注**
 
@@ -82,6 +82,6 @@ author = "danyang685"
 - 软件包更新
 
   ```shell
-  sudo apt update && sudo apt upgrade -y && sudo apt autoremove
+  sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
   ```
 
