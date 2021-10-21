@@ -11,7 +11,7 @@ date = "2020-07-09T01:00:00+08:00"
 [source]
 
 [source.mirror]
-registry = "https://mirror.sjtu.edu.cn/git/crates.io-index/"
+registry = "https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index/"
 
 [source.crates-io]
 replace-with = "mirror"
