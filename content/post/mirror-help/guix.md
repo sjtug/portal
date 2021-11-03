@@ -21,14 +21,14 @@ Git 镜像的地址为 https://mirror.sjtu.edu.cn/git/guix.git 。修改 `~/.con
 
 ## Substitute 镜像
 
-镜像地址为 [https://mirror.sjtu.edu.cn/guix](https://mirror.sjtu.edu.cn/guix)。
+镜像地址为 [https://mirror.sjtu.edu.cn/guix/](https://mirror.sjtu.edu.cn/guix/)。
 镜像实现方式为智能缓存，在镜像站用户首次访问某个 nar 或 narinfo 时，它会被永久缓存在镜像上；
 之后的访问将直接从镜像服务器返回数据。
 
 * guix命令支持使用 `--substitute-urls` 参数为单个命令的执行临时覆盖substitute服务器，例如：
 
 ```shell
-guix package -i <package> --substitute-urls="https://mirror.sjtu.edu.cn/guix"
+guix package -i <package> --substitute-urls="https://mirror.sjtu.edu.cn/guix/"
 ```
 
 * 如果您使用 Guix 管理整个操作系统，请修改操作系统配置文件 ，替换
@@ -40,7 +40,7 @@ guix package -i <package> --substitute-urls="https://mirror.sjtu.edu.cn/guix"
               (guix-service-type
                config => (guix-configuration
                           (inherit config)
-                          (substitute-urls '("https://mirror.sjtu.edu.cn/guix"
+                          (substitute-urls '("https://mirror.sjtu.edu.cn/guix/"
                                              "https://ci.guix.gnu.org"))))))
   ...
   )
@@ -50,7 +50,7 @@ guix package -i <package> --substitute-urls="https://mirror.sjtu.edu.cn/guix"
   `--substitute-urls` 参数。比如修改 `guix-daemon.service` 的 `ExecStart` 为：
 
 ```conf
-ExecStart=/var/guix/profiles/per-user/root/current-guix/bin/guix-daemon --build-users-group=guixbuild --substitute-urls="https://mirror.sjtu.edu.cn/guix"
+ExecStart=/var/guix/profiles/per-user/root/current-guix/bin/guix-daemon --build-users-group=guixbuild --substitute-urls="https://mirror.sjtu.edu.cn/guix/"
 ```
 
 本文档的编写参考了 [https://guix.org.cn/wiki/mirror/](https://guix.org.cn/wiki/mirror/)
