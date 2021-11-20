@@ -7,7 +7,7 @@ activity_place = "电院E咖二楼"
 author = "skyzh"
 +++
 
-下周五 (26日) 晚 18:30 将在电院E咖二楼进行 SJTUG 吃吃喝喝和技术分享活动，欢迎大家参加～
+下周五 (26日) 18:30 将在电院E咖二楼进行 SJTUG 吃吃喝喝和技术分享活动，欢迎大家参加～
 
 本次分享的嘉宾是冷亦君同学，题目是“Use Abella to prove equivalence of datalog rules in Polonius (the new Rust borrow checker)”。
 届时现场会提供小吃、SJTUG 贴纸、以及来自 Naive Systems 的纪念品。感谢 [Naive Systems](https://www.naivesystems.com) 对本次活动的赞助！活动安排如下：
