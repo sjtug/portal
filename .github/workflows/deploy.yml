@@ -38,6 +38,7 @@ jobs:
           publish_branch: master
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
+          force_orphan: true
   deploy_tcloud:
     name: Deploy to Tencent Cloud
     runs-on: ubuntu-latest
