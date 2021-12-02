@@ -1,10 +1,11 @@
 +++
 date = "2021-11-20T20:00:00+08:00"
-title = "SJTUG x Naive Systems 11 月吃吃喝喝与技术分享活动"
+title = "SJTUG x Naive Systems 11 月吃吃喝喝与技术分享"
 tags = ["news", "sharing"]
 activity_time = "2021-11-26T18:30:00+08:00"
 activity_place = "电院E咖二楼"
 author = "skyzh"
+image = "2021-11.cover.jpeg"
 +++
 
 下周五 (26日) 18:30 将在电院E咖二楼进行 SJTUG 吃吃喝喝和技术分享活动，欢迎大家参加～
@@ -17,4 +18,6 @@ author = "skyzh"
 
 电院E咖的位置在电子信息与电气工程学院 2 号楼和 3 号楼之间。
 
-本次分享没有直播，下次一定。slides 会上传到 https://github.com/sjtug/sharing
+本次分享没有直播，下次一定。slides 已经上传到 [https://github.com/sjtug/sharing](https://github.com/sjtug/sharing)。
+
+![in-event](/images/2021-11.in-event.jpeg)
