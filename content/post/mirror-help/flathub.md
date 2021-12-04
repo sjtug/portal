@@ -15,6 +15,13 @@ Flathub 镜像是 [flathub.org](https://flathub.org) 的智能缓存。当您请
 sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
 ```
 
+如果出现错误可尝试：
+
+```bash
+wget https://mirror.sjtu.edu.cn/flathub/flathub.gpg
+sudo flatpak remote-modify --gpg-import=flathub.gpg flathub
+```
+
 目前 sel.flathub.org 已经重定向到 SJTUG 镜像站。如果您原先使用该服务器作为 Flathub 上游，
 无需做任何设置即可使用。
 
