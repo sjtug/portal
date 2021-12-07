@@ -20,7 +20,7 @@ wget -qO- https://mirror.sjtu.edu.cn/raspbian-addons/KEY.gpg | sudo apt-key add 
 ```
 添加该仓库
 ```bash
-echo "deb https://mirror.sjtu.edu.cn/raspbian-addons/debian/ /" | sudo tee /etc/apt/sources.list.d/raspbian-addons.list
+echo "deb https://mirror.sjtu.edu.cn/raspbian-addons/debian precise main" | sudo tee /etc/apt/sources.list.d/raspbian-addons.list
 ```
 更新软件包缓存
 ```bash
