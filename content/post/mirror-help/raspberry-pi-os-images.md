@@ -75,7 +75,7 @@ author = "danyang685"
 
   ```shell
   wget -qO- https://mirror.sjtu.edu.cn/raspbian-addons/KEY.gpg | sudo apt-key add -
-  echo "deb https://mirror.sjtu.edu.cn/raspbian-addons/debian/ /" | sudo tee /etc/apt/sources.list.d/raspbian-addons.list
+  echo "deb https://mirror.sjtu.edu.cn/raspbian-addons/debian precise main" | sudo tee /etc/apt/sources.list.d/raspbian-addons.list
   sudo apt update
   ```
 
