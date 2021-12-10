@@ -9,5 +9,5 @@ Alpine Linux 是一个面向安全，轻量级的基于musl libc与busybox项目
 
 使用方法：
 ```bash
-sed -i 's/dl-cdn.alpinelinux.org/mirrors.sjtug.sjtu.edu.cn/alpine/g' /etc/apk/repositories
+sed -i 's/dl-cdn.alpinelinux.org/mirrors.sjtug.sjtu.edu.cn/g' /etc/apk/repositories
 ```
