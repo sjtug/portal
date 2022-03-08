@@ -10,7 +10,7 @@ Debian 是完全由自由软件组成的类UNIX操作系统，其包含的多数
 
 -  一键替换
 ```
-sudo sed -i "s|http://deb.debian.org/debian|https://mirror.sjtu.edu.cn/debian|g" /etc/apt/sources.list
+sudo sed -i "s|http://deb.debian.org/debian|http://mirror.sjtu.edu.cn/debian|g" /etc/apt/sources.list
 ```
 - 手动替换
 
