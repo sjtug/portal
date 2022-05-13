@@ -23,8 +23,7 @@ NixOS 与 nix-darwin：编辑配置文件（一般来说，NixOS 配置位于 `/
 ``` nix
 { config, lib, pkgs, ... }:
 {
-  ...
-  nix.binaryCaches = lib.mkForce [ "https://mirror.sjtu.edu.cn/nix-channels/store" "https://cache.nixos.org" ];
+  nix.binaryCaches = [ "https://mirror.sjtu.edu.cn/nix-channels/store" ];
 }
 ```
 
