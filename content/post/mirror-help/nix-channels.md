@@ -20,10 +20,21 @@ substituters = https://mirror.sjtu.edu.cn/nix-channels/store https://cache.nixos
 
 NixOS 与 nix-darwin：编辑配置文件（一般来说，NixOS 配置位于 `/etc/nixos/configuration.nix`，nix-darwin 配置位于 `$HOME/.nixpkgs/darwin-configuration.nix`，如果你手动指定了 `NIX_PATH` 或是使用 Flakes 管理系统，请根据具体情况编辑对应的文件）：
 
+对于 NixOS 21.11（及之前的版本）与 nix-darwin：
+
 ``` nix
 { config, lib, pkgs, ... }:
 {
   nix.binaryCaches = [ "https://mirror.sjtu.edu.cn/nix-channels/store" ];
+}
+```
+
+对于 NixOS 22.05（及之后的版本）：
+
+``` nix
+{ config, lib, pkgs, ... }:
+{
+  nix.settings.substituters = [ "https://mirror.sjtu.edu.cn/nix-channels/store" ];
 }
 ```
 
