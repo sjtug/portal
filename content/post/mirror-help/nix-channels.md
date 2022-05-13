@@ -18,7 +18,7 @@ substituters = https://mirror.sjtu.edu.cn/nix-channels/store https://cache.nixos
 
 单独安装的 Nix 在更改完配置文件之后需要重启 nix-daemon 才能应用配置。
 
-NixOS 与 nix-darwin：编辑配置文件（NixOS 配置位于 `/etc/nixos/configuration.nix`，nix-darwin 配置位于 `$HOME/.nixpkgs/darwin-configuration.nix`）：
+NixOS 与 nix-darwin：编辑配置文件（一般来说，NixOS 配置位于 `/etc/nixos/configuration.nix`，nix-darwin 配置位于 `$HOME/.nixpkgs/darwin-configuration.nix`，如果你手动指定了 `NIX_PATH` 或是使用 Flakes 管理系统，请根据具体情况编辑对应的文件）：
 
 ``` nix
 { config, lib, pkgs, ... }:
