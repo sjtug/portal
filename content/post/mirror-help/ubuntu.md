@@ -15,31 +15,56 @@ SJTUG镜像源可以加速软件包的安装。
 
 镜像站一天同步一次 Ubuntu 镜像。为了取得最新的安全更新，我们不建议您将 `security.ubuntu.com` 换成镜像源。
 
-您也可使用`sudo sed -i 's/http:\/\/cn.archive.ubuntu.com/http:\/\/mirror.sjtu.edu.cn/g' /etc/apt/sources.list`指令直接批量修改。
+您也可使用`sudo sed -i 's/http:\/\/cn.archive.ubuntu.com/https:\/\/mirror.sjtu.edu.cn/g' /etc/apt/sources.list`指令直接批量修改。
 
-以下为修改后的镜像源列表文件的示例。请注意：下面的 `focal` 只是一个例子，请将它换成自己使用的 Ubuntu 版本代号。否则系统会自动升级到 focal，且会导致未知的问题。
+以下为修改后的镜像源列表文件的示例。可使用`gedit`等文本编辑器修改`/etc/apt/sources.list`。修改后使用`sudo apt update`更新软件源。
+
+Ubuntu 18.04
 
 ```
-# See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
-# newer versions of the distribution.
-deb https://mirror.sjtu.edu.cn/ubuntu focal main restricted
-# deb-src https://mirror.sjtu.edu.cn/ubuntu focal main restricted
-deb https://mirror.sjtu.edu.cn/ubuntu focal-updates main restricted
-# deb-src https://mirror.sjtu.edu.cn/ubuntu focal-updates main restricted
-deb https://mirror.sjtu.edu.cn/ubuntu focal universe
-# deb-src https://mirror.sjtu.edu.cn/ubuntu focal universe
-deb https://mirror.sjtu.edu.cn/ubuntu focal-updates universe
-# deb-src https://mirror.sjtu.edu.cn/ubuntu focal-updates universe
-deb https://mirror.sjtu.edu.cn/ubuntu focal multiverse
-# deb-src https://mirror.sjtu.edu.cn/ubuntu focal multiverse
-deb https://mirror.sjtu.edu.cn/ubuntu focal-updates multiverse
-# deb-src https://mirror.sjtu.edu.cn/ubuntu focal-updates multiverse
-deb https://mirror.sjtu.edu.cn/ubuntu focal-backports main restricted universe multiverse
-# deb-src https://mirror.sjtu.edu.cn/ubuntu focal-backports main restricted universe multiverse
-deb http://archive.canonical.com/ubuntu focal partner
-# deb-src http://archive.canonical.com/ubuntu focal partner
-deb https://mirror.sjtu.edu.cn/ubuntu focal-security main restricted universe multiverse
-# deb-src https://mirror.sjtu.edu.cn/ubuntu focal-security main restricted universe multiverse
+deb https://mirror.sjtu.edu.cn/ubuntu/ bionic main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ bionic main restricted universe multiverse
+deb https://mirror.sjtu.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+deb https://mirror.sjtu.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+deb https://mirror.sjtu.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+
+# deb https://mirror.sjtu.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+```
+
+Ubuntu 20.04
+
+```
+deb https://mirror.sjtu.edu.cn/ubuntu/ focal main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ focal main restricted universe multiverse
+deb https://mirror.sjtu.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+deb https://mirror.sjtu.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+deb https://mirror.sjtu.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+
+# deb https://mirror.sjtu.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
+```
+
+Ubuntu 22.04
+
+```
+deb https://mirror.sjtu.edu.cn/ubuntu/ jammy main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ jammy main restricted universe multiverse
+deb https://mirror.sjtu.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
+deb https://mirror.sjtu.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
+deb https://mirror.sjtu.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
+
+# deb https://mirror.sjtu.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse
+# deb-src https://mirror.sjtu.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse
 ```
 
 其中`deb-src`为源码镜像，默认注释以提高速度。可将原镜像列表备份后替换为上述内容。
