@@ -8,9 +8,12 @@ homebrew-bottles.git镜像了[预编译的 Homebrew 软件包](https://homebrew.
 
 *SJTUG镜像同时也提供了`homebrew-core`和`homebrew-cask`镜像，欢迎大家使用。*
 
+*若首次安装 homebrew, 请参阅 `brew.git` 的说明。*
+
 使用方法：
 
-执行以下语句或加入到`~/.bashrc`中。
+执行以下语句或加入到`~/.bashrc`中：
+
 ```sh
 export HOMEBREW_BOTTLE_DOMAIN=https://mirror.sjtu.edu.cn/homebrew-bottles/bottles
 ```
