@@ -21,7 +21,7 @@ jobs:
       - name: Install Packages
         run: |
           pip install pyopenssl ndg-httpsclient pyasn1 coscmd
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         name: Checkout Code
       - name: Build Site
         run: |
@@ -47,7 +47,7 @@ jobs:
       - name: Install Packages
         run: |
           pip install pyopenssl ndg-httpsclient pyasn1 coscmd
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         name: Checkout Code
       - name: Build Site
         run: |
