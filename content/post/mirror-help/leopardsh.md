@@ -46,7 +46,7 @@ chmod +x ./leopard.sh
 安装完成后，脚本会移动到`/usr/local/bin`文件夹下，对其进行编辑：
 
 ```
-LEOPARDSH_MIRROR=${LEOPARDSH_MIRROR:-https://mirror.sjtu.edu.cn/leopardsh
+LEOPARDSH_MIRROR=${LEOPARDSH_MIRROR:-https://mirror.sjtu.edu.cn/leopardsh}
 ```
 
 ```
