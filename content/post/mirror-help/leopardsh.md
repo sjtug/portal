@@ -24,13 +24,11 @@ chmod +x ./tiger.sh
 TIGERSH_MIRROR=${TIGERSH_MIRROR:-https://mirror.sjtu.edu.cn/leopardsh}
 ```
 
+并在文件开头添加:
+
 ```
-size=$(curl --fail --silent --show-error --location -v $insecure_url 2>&1 \
-    | grep 'Content-Length:' \
-    | grep -vw '0' \
-    | awk '{print $NF}' \
-    | sed "s/$(printf '\r')//"
-    )
+export TIGERSH_MIRROR_NO_HTTP=1
+export TIGERSH_MIRROR_NO_HEAD=1
 ```
 
 **Mac OS X Leopard:**
@@ -49,13 +47,11 @@ chmod +x ./leopard.sh
 LEOPARDSH_MIRROR=${LEOPARDSH_MIRROR:-https://mirror.sjtu.edu.cn/leopardsh}
 ```
 
+并在文件开头添加:
+
 ```
-size=$(curl --fail --silent --show-error --location -v $insecure_url 2>&1 \
-    | grep 'Content-Length:' \
-    | grep -vw '0' \
-    | awk '{print $NF}' \
-    | sed "s/$(printf '\r')//"
-    )
+export LEOPARDSH_MIRROR_NO_HTTP=1
+export LEOPARDSH_MIRROR_NO_HEAD=1
 ```
 
 
