@@ -17,8 +17,10 @@ docker-registry 源是 Docker Hub 的反向代理，可以加速`docker pull`等
 
 ## Podman 使用方法：
 
-新建`/etc/containers/registries.conf.d/050-sjtug-docker-mirror.conf`文件，写入以下内容：
+新建`/etc/containers/registries.conf.d/050-sjtug-docker-mirror.conf`文件（或在`/etc/containers/registries.conf`文件末尾），写入以下内容：
 ```toml
+unqualified-search-registries = ["docker.io"]
+
 [[registry]]
 location = "docker.io"
 
