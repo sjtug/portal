@@ -13,21 +13,19 @@ Ghcup 是一种用于安装 Haskell 的工具，它使得用户可以轻易地�
 
 ```
 url-source:
-    OwnSource: "https://mirror.sjtu.edu.cn/ghcup/yaml/ghcup/data/ghcup-0.0.6.yaml"
+    OwnSource: "https://mirror.sjtu.edu.cn/ghcup/yaml/ghcup/data/ghcup-0.0.8.yaml"
 ```
 
 如果您尚未安装 ghcup，请在完成以上步骤后，于终端中执行以下指令（请不要以 root 用户执行），随后跟随屏幕上的指引完成安装。
-
-- 如果您运行的是 Linux, macOS (Intel), FreeBSD 或 WSL，请执行
 
 ```
 curl --proto '=https' --tlsv1.2 -LsSf https://mirror.sjtu.edu.cn/ghcup/script/install.sh | sh
 ```
 
-- 如果您运行的是 macOS (Apple 芯片) 请执行
+若您希望使用官网的安装器,请执行以下指令
 
 ```
-curl --proto '=https' --tlsv1.2 -LsSf https://mirror.sjtu.edu.cn/ghcup/script/install.sh | arch -x86_64 /bin/bash
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | GHCUP_BASE_URL="https://mirror.sjtu.edu.cn/ghcup/packages/~ghcup" sh
 ```
 
 **故障排除**
