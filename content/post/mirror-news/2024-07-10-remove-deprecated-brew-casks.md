@@ -12,6 +12,6 @@ author="lightquantum"
 - 将 Zhiyuan 服务器从 Fedora 38 升级至 Fedora 40
 - 新增 [racket 安装器镜像](https://mirror.sjtu.edu.cn/racket/)
 - 新增 [intel-extension-for-pytorch](https://mirror.sjtu.edu.cn/github/intel-extension-for-pytorch) 镜像 ([mirror-requests#364](https://github.com/sjtug/mirror-requests/issues/364))
-- 修复 ghcup 签名问题 ([mirror-requests#365](https://github.com/sjtug/mirror-requests/issues/364))
+- 修复 ghcup 签名问题 ([mirror-requests#365](https://github.com/sjtug/mirror-requests/issues/365))
 
 如有任何问题或建议，请随时联系我们。感谢您的支持与关注！
