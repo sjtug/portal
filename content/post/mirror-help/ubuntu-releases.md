@@ -1,5 +1,5 @@
 +++
-title = "ubuntu-cd"
+title = "ubuntu-releases"
 tags = ["mirror-help"]
 author = "LengmoAngel"
 +++
