@@ -53,4 +53,4 @@ guix package -i <package> --substitute-urls="https://mirror.sjtu.edu.cn/guix/"
 ExecStart=/var/guix/profiles/per-user/root/current-guix/bin/guix-daemon --build-users-group=guixbuild --substitute-urls="https://mirror.sjtu.edu.cn/guix/"
 ```
 
-本文档的编写参考了 [https://guix.org.cn/wiki/mirror/](https://guix.org.cn/wiki/mirror/)
+本文档的编写参考了 [https://guixcn.org/wiki/mirror/](https://guixcn.org/wiki/mirror/)
