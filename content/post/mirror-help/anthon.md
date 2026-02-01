@@ -1,24 +1,17 @@
 +++
 title = "anthon"
 tags = ["mirror-help"]
-author = "LengmoAngel"
+author = "grayawa"
 +++
 
-AOSC OS（安同 OS）软件源。AOSC OS 是一个由安同开源社区 [https://aosc.io](https://aosc.io）开发的半滚动 Linux 发行版，对包括 x86-64,aarch64,LoongArch64 等多种处理器架构提供支持。
+安同 OS 是一个由[安同开源社区](https://aosc.io)开发的半滚动 Linux 发行版，支持多种处理器架构。
 
-**使用方法**
+### 工具修改
 
-AOSC OS 内置 `apt-gen-list` 用于切换社区提供的可用镜像源。不建议直接使用 `/etc/apt/sources.list` 变更镜像。
+请使用以下命令交互式开启/关闭镜像源，输入镜像源名称并使用空格启用/禁用镜像源（请注意：`oma mirror` 允许指定多个镜像源，请注意禁用不需要使用的镜像源）：
 
-使用如下指令将本镜像源添加到可用镜像源列表中
+```bash
+sudo oma mirror
 ```
-sudo apt-gen-list add-custom-mirror sjtug https://mirror.sjtu.edu.cn/anthon/
-```
-随后使用如下启用本镜像源
-```
-sudo apt-gen-list add-mirror sjtug
-```
-如果仅使用本镜像源，使用如下指令
-```
-sudo apt-gen-list set-mirror sjtug
-```
+
+关于 `oma mirror` 的更多详细命令和用法，请参考 [oma 的 GitHub 页面](https://github.com/AOSC-Dev/oma?tab=readme-ov-file#command-reference)。
