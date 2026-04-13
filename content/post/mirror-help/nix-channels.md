@@ -39,3 +39,6 @@ NixOS 与 nix-darwin：编辑配置文件（一般来说，NixOS 配置位于 `/
 ```
 
 NixOS 与 nix-darwin 在更改完配置之后需要 switch 到新配置后生效。
+
+使用时如出现 `warning: ignoring untrusted substituter 'https://mirror.sjtu.edu.cn/nix-channels/store'` 警告且跳过了用户配置的 substituters，说明当前用户不属于 Nix daemon trusted-users，须在 `/etc/nix/nix.conf` 添加 `trusted-users = <username>` 以信任用户设置的 substituters。（参考 <https://github.com/tuna/issues/issues/1355#issuecomment-942017041>）
+
