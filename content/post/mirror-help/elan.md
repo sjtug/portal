@@ -9,10 +9,11 @@ author = "alissa-tung, timechess"
 使用上海交通大学的 https://mirror.sjtu.edu.cn 镜像服务，软件源镜像托管在 `elan`
 和 `git/lean4-packages` 下。
 
-请自行修改命令中的版本号，可用版本参见：
-http://mirror.sjtu.edu.cn/elan/?mirror_intel_list
+## 安装 Glean
 
-也可以通过这个链接下载 glean。
+[Glean](https://github.com/alissa-tung/glean) 是一个 Lean 4 镜像适配工具，支持通过 SJTUG 镜像服务安装 Elan 和 Lean 4。
+
+建议通过 [glean](https://mirror.sjtu.edu.cn/elan/glean/releases/download/?mirror_intel_list) 查询最新版本并下载 Glean。
 
 ## 安装 Elan
 
@@ -27,8 +28,12 @@ git clone --depth 1 https://mirror.sjtu.edu.cn/git/lean4-packages/mathematics_in
 然后通过 `cat lean-toolchain` 获取需要安装的版本。
 
 ```sh
-glean -install elan -version 3.1.1
+glean -install elan -version v3.1.1
 ```
+
+⚠️ 示例命令中的版本可能已过时！
+
+SJTUG 镜像服务目前提供的 Elan 版本参见 [elan](http://mirror.sjtu.edu.cn/elan/elan/releases/download/?mirror_intel_list)
 
 ## 安装 Lean
 
@@ -44,7 +49,9 @@ glean -install lean --version 4.5.0
 glean -install lean --version 4.4.0-nightly-2023-11-12
 ```
 
-nightly 可用版本参见 [lean4_nightly](http://mirror.sjtu.edu.cn/elan/leanprover/lean4_nightly/releases/download?mirror_intel_list)
+⚠️ 示例命令中的版本可能已过时！
+
+SJTUG 镜像服务目前提供的 Lean 4 稳定/预发布版本参见 [lean4](http://mirror.sjtu.edu.cn/elan/leanprover/lean4/releases/download/?mirror_intel_list)，每日构建（nightly）版本参见 [lean4_nightly](http://mirror.sjtu.edu.cn/elan/leanprover/lean4_nightly/releases/download/?mirror_intel_list)
 
 ## 在构建项目前下载依赖
 
