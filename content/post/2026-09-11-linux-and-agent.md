@@ -3,14 +3,14 @@ date = "2026-09-11T18:00:00+08:00"
 title = "SJTUG x Xflops Linux 入门 × Agent 实操 Workshop"
 tags = ["news", "sharing"]
 activity_time = "2026-09-14T19:00:00+08:00"
-activity_place = "网络信息中心八楼"
+activity_place = "东上院 100"
 author = "alexcui03"
-image = "2026-09.xflops.jpg"
+image = "2026-09.xflops.png"
 
 +++
 
 **时间**：9月14日（周一）19:00 - 21:00  
-**地点**：网络信息中心八楼  
+**地点**：东上院 100  
 **必备物品**：笔记本电脑 + 充满电 + 带上你的好奇心！
 
 无论是夯实计算机基础、日常代码开发，还是探索前沿 AI——Linux 都是理工科同学绕不开的技术底座，而 AI Agent（智能体） 则是正在重塑人机交互的下一代生产力工具。
